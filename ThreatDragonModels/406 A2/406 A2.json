@@ -1,0 +1,33 @@
+{
+  "version": "2.0.3",
+  "summary": {
+    "title": "406 A2",
+    "owner": "",
+    "description": "Assignment 2 model",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Sam"
+      },
+      {
+        "name": "Dillon"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Primary Diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.3",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
