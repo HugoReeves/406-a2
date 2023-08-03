@@ -35,7 +35,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Applicant"
+                "text": "Staff"
               },
               "body": {
                 "stroke": "#333333",
@@ -49,7 +49,75 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Process",
+              "name": "Staff",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 280,
+              "y": 403
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Applicant"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "3cf2e22e-3b3c-4565-b830-c41b37c72baa",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
               "name": "Applicant",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 640,
+              "y": 120
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Owner"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "a77fbafc-c6c7-4588-bbf7-2e250f7d4d01",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Owner",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
