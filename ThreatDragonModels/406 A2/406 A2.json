@@ -45,8 +45,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "21309735-374d-4d6c-8f6c-cc882903f99b",
             "zIndex": 1,
+            "id": "21309735-374d-4d6c-8f6c-cc882903f99b",
             "data": {
               "type": "tm.Process",
               "name": "Staff",
@@ -79,8 +79,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "3cf2e22e-3b3c-4565-b830-c41b37c72baa",
             "zIndex": 2,
+            "id": "3cf2e22e-3b3c-4565-b830-c41b37c72baa",
             "data": {
               "type": "tm.Process",
               "name": "Applicant",
@@ -113,8 +113,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "a77fbafc-c6c7-4588-bbf7-2e250f7d4d01",
             "zIndex": 3,
+            "id": "a77fbafc-c6c7-4588-bbf7-2e250f7d4d01",
             "data": {
               "type": "tm.Process",
               "name": "Owner",
@@ -124,6 +124,44 @@
               "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "3c1abfc9-cbc4-4201-825e-aa933b00c80d",
+            "source": {
+              "x": 280,
+              "y": 120
+            },
+            "target": {
+              "x": 630,
+              "y": 150
             }
           }
         ]
