@@ -26,45 +26,11 @@
         "cells": [
           {
             "position": {
-              "x": 220,
+              "x": 270,
               "y": 100
             },
             "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Staff"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 1,
-            "id": "21309735-374d-4d6c-8f6c-cc882903f99b",
-            "data": {
-              "type": "tm.Process",
-              "name": "Staff",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 280,
-              "y": 403
-            },
-            "size": {
-              "width": 60,
+              "width": 112.5,
               "height": 60
             },
             "attrs": {
@@ -78,27 +44,27 @@
               }
             },
             "visible": true,
-            "shape": "process",
-            "zIndex": 2,
-            "id": "3cf2e22e-3b3c-4565-b830-c41b37c72baa",
+            "shape": "actor",
+            "id": "a0533989-0845-46b8-83c0-d67ba90c43c8",
+            "zIndex": 1,
             "data": {
-              "type": "tm.Process",
+              "type": "tm.Actor",
               "name": "Applicant",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "privilegeLevel": "",
+              "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
             }
           },
           {
             "position": {
-              "x": 640,
-              "y": 120
+              "x": 594,
+              "y": 100
             },
             "size": {
-              "width": 60,
+              "width": 112.5,
               "height": 60
             },
             "attrs": {
@@ -112,63 +78,53 @@
               }
             },
             "visible": true,
-            "shape": "process",
-            "zIndex": 3,
-            "id": "a77fbafc-c6c7-4588-bbf7-2e250f7d4d01",
+            "shape": "actor",
+            "id": "4a32fb74-9b0a-49d7-b447-c7f535291fb2",
+            "zIndex": 2,
             "data": {
-              "type": "tm.Process",
+              "type": "tm.Actor",
               "name": "Owner",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "privilegeLevel": "",
+              "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
             }
           },
           {
-            "shape": "flow",
+            "position": {
+              "x": 921,
+              "y": 100
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
             "attrs": {
-              "line": {
+              "text": {
+                "text": "Staff"
+              },
+              "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
                 "strokeDasharray": null
               }
             },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
+            "visible": true,
+            "shape": "actor",
+            "id": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d",
+            "zIndex": 3,
             "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
+              "type": "tm.Actor",
+              "name": "Staff",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
+              "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
-            },
-            "id": "3c1abfc9-cbc4-4201-825e-aa933b00c80d",
-            "source": {
-              "x": 280,
-              "y": 120
-            },
-            "target": {
-              "x": 630,
-              "y": 150
-            },
-            "vertices": [
-              {
-                "x": 530,
-                "y": 150
-              }
-            ]
+            }
           }
         ]
       }
