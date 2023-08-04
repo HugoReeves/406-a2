@@ -45,8 +45,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "a0533989-0845-46b8-83c0-d67ba90c43c8",
             "zIndex": 1,
+            "id": "a0533989-0845-46b8-83c0-d67ba90c43c8",
             "data": {
               "type": "tm.Actor",
               "name": "Applicant",
@@ -79,8 +79,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "4a32fb74-9b0a-49d7-b447-c7f535291fb2",
             "zIndex": 2,
+            "id": "4a32fb74-9b0a-49d7-b447-c7f535291fb2",
             "data": {
               "type": "tm.Actor",
               "name": "Owner",
@@ -113,8 +113,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d",
             "zIndex": 3,
+            "id": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d",
             "data": {
               "type": "tm.Actor",
               "name": "Staff",
