@@ -268,8 +268,8 @@
           },
           {
             "position": {
-              "x": 250,
-              "y": 630
+              "x": 600,
+              "y": 450
             },
             "size": {
               "width": 120,
@@ -348,8 +348,8 @@
           },
           {
             "position": {
-              "x": 440,
-              "y": 400
+              "x": 200,
+              "y": 360
             },
             "size": {
               "width": 140,
@@ -763,8 +763,8 @@
             },
             "vertices": [
               {
-                "x": 310,
-                "y": 570
+                "x": 550,
+                "y": 390
               }
             ]
           },
@@ -808,54 +808,8 @@
             },
             "vertices": [
               {
-                "x": 670,
-                "y": 570
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Confirmation\n8 Character ID\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "a7e69e8f-cad7-45c2-9f72-5d0e94b6311d",
-            "labels": [
-              "Confirmation\n8 Character ID\n"
-            ],
-            "source": {
-              "x": 580,
-              "y": 457
-            },
-            "target": {
-              "cell": "095bd98e-fec4-4fbc-8b7b-913d51166746"
-            },
-            "vertices": [
-              {
-                "x": 950,
-                "y": 420
+                "x": 430,
+                "y": 640
               }
             ]
           },
@@ -1209,8 +1163,8 @@
             },
             "vertices": [
               {
-                "x": 800,
-                "y": 790
+                "x": 840,
+                "y": 510
               }
             ]
           },
@@ -1254,12 +1208,8 @@
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 810
-              },
-              {
-                "x": 960,
-                "y": 810
+                "x": 1030,
+                "y": 450
               }
             ]
           },
@@ -2240,9 +2190,54 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Confirmation\n8 Character ID\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "a7e69e8f-cad7-45c2-9f72-5d0e94b6311d",
+            "labels": [
+              "Confirmation\n8 Character ID\n"
+            ],
+            "source": {
+              "cell": "b6dbed27-0009-42fc-af44-335d946996bb"
+            },
+            "target": {
+              "cell": "095bd98e-fec4-4fbc-8b7b-913d51166746"
+            },
+            "vertices": [
+              {
+                "x": 996.5,
+                "y": 240
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 110,
-              "y": 390
+              "x": -80,
+              "y": 580
             },
             "size": {
               "width": 140,
