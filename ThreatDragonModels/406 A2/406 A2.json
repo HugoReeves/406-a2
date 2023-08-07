@@ -2464,8 +2464,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
                 "targetMarker": {
                   "name": "classic"
                 },
@@ -2478,15 +2477,29 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Decision Confirmation",
+              "name": "Decision Confirmation Email",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "027e3902-c274-48f1-800e-f2ae27f7b3a3",
+                  "title": "Fishing Attack",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "A malicious actor may send emails claiming to contain application decisions, but that require additional content such as payment.",
+                  "mitigation": "Utilise a login system for applicants and owners to confirm application status.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ]
             },
             "id": "749fdacb-b008-4e1c-9860-25a7d5a0501a",
             "source": {
@@ -2497,12 +2510,12 @@
             },
             "vertices": [
               {
-                "x": 400,
-                "y": 180
+                "x": 290,
+                "y": 160
               }
             ],
             "labels": [
-              "Decision Confirmation"
+              "Decision Confirmation Email"
             ]
           },
           {
@@ -3117,6 +3130,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 5
+    "threatTop": 6
   }
 }
