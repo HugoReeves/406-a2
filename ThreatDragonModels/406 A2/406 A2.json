@@ -184,7 +184,7 @@
           },
           {
             "position": {
-              "x": 1610,
+              "x": 1625,
               "y": 70
             },
             "size": {
@@ -2185,6 +2185,45 @@
             },
             "labels": [
               "Verify Staff User Exists"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Communicate Staff Member's Login Details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "9dfcad51-9458-429c-a804-bdf099d21e2c",
+            "source": {
+              "cell": "1843678d-dec2-4d83-8a2f-81aafcb11a5d"
+            },
+            "target": {
+              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
+            },
+            "labels": [
+              "Communicate Staff Member's Login Details"
             ]
           },
           {
