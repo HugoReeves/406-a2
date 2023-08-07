@@ -1669,7 +1669,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Check Token\n",
+              "name": "Token to Check",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1693,7 +1693,7 @@
               }
             ],
             "labels": [
-              "Check Token\n"
+              "Token to Check"
             ]
           },
           {
@@ -1804,7 +1804,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Check Token",
+              "name": "Token to Check",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1828,7 +1828,7 @@
               }
             ],
             "labels": [
-              "Check Token"
+              "Token to Check"
             ]
           },
           {
@@ -2366,7 +2366,7 @@
               }
             ],
             "labels": [
-              "Supporting Documents"
+              "Applicant's Supporting Documents"
             ]
           },
           {
