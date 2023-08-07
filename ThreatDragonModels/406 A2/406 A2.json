@@ -1331,8 +1331,8 @@
             },
             "vertices": [
               {
-                "x": 1370,
-                "y": 790
+                "x": 1240,
+                "y": 730
               }
             ]
           },
@@ -2058,48 +2058,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "f04111cb-1e1e-4a7b-b11f-b882a629d26d",
-            "source": {
-              "cell": "e1c84163-4301-4270-ad0c-37febc6a2486"
-            },
-            "target": {
-              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
-            },
-            "vertices": [
-              {
-                "x": 1240,
-                "y": 280
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Credentials\n ",
               "description": "",
               "outOfScope": false,
@@ -2348,6 +2306,100 @@
             ],
             "labels": [
               "Validation Passed (Boolean)"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Applicant and Owner Details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "21371d28-6de5-43a5-b8cc-67c33af8fc39",
+            "source": {
+              "cell": "7d98197d-31f8-4ce1-9942-ead31ab6642f"
+            },
+            "target": {
+              "cell": "e1c84163-4301-4270-ad0c-37febc6a2486"
+            },
+            "vertices": [
+              {
+                "x": 1240,
+                "y": 660
+              }
+            ],
+            "labels": [
+              "Applicant and Owner Details"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Decision and list of applicants and owners",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "f04111cb-1e1e-4a7b-b11f-b882a629d26d",
+            "source": {
+              "cell": "e1c84163-4301-4270-ad0c-37febc6a2486"
+            },
+            "target": {
+              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
+            },
+            "vertices": [
+              {
+                "x": 1560,
+                "y": 240
+              },
+              {
+                "x": 1470,
+                "y": 100
+              }
+            ],
+            "labels": [
+              "Decision and list of applicants and owners"
             ]
           },
           {
@@ -2868,8 +2920,8 @@
           },
           {
             "position": {
-              "x": 1108,
-              "y": -30.000000000000007
+              "x": 1195,
+              "y": -45
             },
             "size": {
               "width": 100,
