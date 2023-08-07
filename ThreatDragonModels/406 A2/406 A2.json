@@ -2403,6 +2403,109 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Decision Confirmation Email",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "26b2bb9b-8faa-4dd0-aaa3-6297f34f74a3",
+                  "title": "Potential Fishing Attack",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "729dd14d-ab82-4401-91c8-bc23f51e34dc",
+            "source": {
+              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
+            },
+            "target": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": 25
+              }
+            ],
+            "labels": [
+              "Decision Confirmation Email"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Decision Confirmation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "749fdacb-b008-4e1c-9860-25a7d5a0501a",
+            "source": {
+              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
+            },
+            "target": {
+              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 180
+              }
+            ],
+            "labels": [
+              "Decision Confirmation"
+            ]
+          },
+          {
             "position": {
               "x": -80,
               "y": 580
@@ -2552,9 +2655,9 @@
                 "text": "Give ID"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "strokeDasharray": null
+                "stroke": "red",
+                "strokeWidth": 3,
+                "strokeDasharray": "5 2"
               }
             },
             "visible": true,
@@ -2565,11 +2668,25 @@
               "type": "tm.Process",
               "name": "Give ID",
               "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "Applicants will communicate the 8 Character application ID via existing communication channels.",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "88fc2b9e-a61a-43f7-bb1b-9df3c2ac5ad2",
+                  "title": "TODO: Threat of application ID leaking",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Develop a process to communicate 8 character application ID to all Owners and Applicants.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -2920,8 +3037,8 @@
           },
           {
             "position": {
-              "x": 1195,
-              "y": -45
+              "x": 1185,
+              "y": -30
             },
             "size": {
               "width": 100,
@@ -3000,6 +3117,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 5
   }
 }
