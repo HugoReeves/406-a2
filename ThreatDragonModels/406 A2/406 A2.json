@@ -1073,8 +1073,8 @@
             },
             "vertices": [
               {
-                "x": 1260,
-                "y": 210
+                "x": 1390,
+                "y": 190
               }
             ]
           },
@@ -1118,8 +1118,8 @@
             },
             "vertices": [
               {
-                "x": 1370,
-                "y": 210
+                "x": 1390,
+                "y": 240
               }
             ]
           },
@@ -2207,7 +2207,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Confirmation\n8 Character ID\n",
+              "name": "Unique Application ID\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2219,19 +2219,154 @@
             },
             "id": "a7e69e8f-cad7-45c2-9f72-5d0e94b6311d",
             "labels": [
-              "Confirmation\n8 Character ID\n"
+              "Unique Application ID\n"
             ],
             "source": {
-              "cell": "b6dbed27-0009-42fc-af44-335d946996bb"
+              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
             },
             "target": {
               "cell": "095bd98e-fec4-4fbc-8b7b-913d51166746"
             },
             "vertices": [
               {
-                "x": 996.5,
-                "y": 240
+                "x": 960,
+                "y": 180
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Generated Unique Application ID",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "b4bb366c-2f24-43cf-a67b-f49113d75dbd",
+            "source": {
+              "cell": "7d98197d-31f8-4ce1-9942-ead31ab6642f"
+            },
+            "target": {
+              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 540
+              }
+            ],
+            "labels": [
+              "Generated Unique Application ID"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Supporting Documents from Applicant Email",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "d038dd44-c8dc-4cda-97ab-133175630e65",
+            "source": {
+              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
+            },
+            "target": {
+              "cell": "d9700edc-fb87-4bfa-94c3-303b77ff4d57"
+            },
+            "labels": [
+              "Supporting Documents from Applicant Email"
+            ],
+            "vertices": [
+              {
+                "x": 1260,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Supporting Documents",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "5a8462f8-bc14-4100-b482-7f1f6d12f196",
+            "source": {
+              "cell": "d9700edc-fb87-4bfa-94c3-303b77ff4d57"
+            },
+            "target": {
+              "cell": "b6dbed27-0009-42fc-af44-335d946996bb"
+            },
+            "vertices": [
+              {
+                "x": 890,
+                "y": 375
+              }
+            ],
+            "labels": [
+              "Supporting Documents"
             ]
           },
           {
@@ -2338,7 +2473,7 @@
           },
           {
             "position": {
-              "x": 1148,
+              "x": 1208,
               "y": 385
             },
             "size": {
@@ -2708,6 +2843,40 @@
             "data": {
               "type": "tm.Process",
               "name": "Staff User\nExists",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1069,
+              "y": 320
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Add Supporting\nDocuments"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "d9700edc-fb87-4bfa-94c3-303b77ff4d57",
+            "zIndex": 26,
+            "data": {
+              "type": "tm.Process",
+              "name": "Add Supporting\nDocuments",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
