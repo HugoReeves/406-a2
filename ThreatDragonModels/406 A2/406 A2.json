@@ -89,8 +89,8 @@
                 "text": "Staff Application Management System"
               }
             },
-            "id": "bd695ff6-df99-4a5f-b62e-0e63ddfa2204",
             "zIndex": -1,
+            "id": "bd695ff6-df99-4a5f-b62e-0e63ddfa2204",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Staff Application Management System",
@@ -114,8 +114,8 @@
                 "text": "Staff Management System"
               }
             },
-            "id": "39b09bbe-8f1d-4cf3-a6e3-159299ddacd0",
             "zIndex": -1,
+            "id": "39b09bbe-8f1d-4cf3-a6e3-159299ddacd0",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Staff Management System",
@@ -218,7 +218,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Authenticated\nStaff Member",
-              "description": "",
+              "description": "All actions from authenticated staff members first undergo token authentication to confirm the staff member is authenticated.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
@@ -1459,15 +1459,15 @@
               "threats": []
             },
             "id": "10058841-c1fb-420b-9362-99cf62381a0b",
+            "labels": [
+              "Token"
+            ],
             "source": {
               "cell": "a1bc7dd5-2522-42e0-8dcf-503b6e91058a"
             },
             "target": {
               "cell": "e71bd29d-f88a-404c-8205-a97495577444"
-            },
-            "labels": [
-              "Token"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1498,15 +1498,15 @@
               "threats": []
             },
             "id": "9713773c-399d-4482-8783-a6e7503fc874",
+            "labels": [
+              "Staff User Info"
+            ],
             "source": {
               "cell": "1843678d-dec2-4d83-8a2f-81aafcb11a5d"
             },
             "target": {
               "cell": "3404a5c1-49c7-4c3d-88ec-4efb79612a10"
             },
-            "labels": [
-              "Staff User Info"
-            ],
             "vertices": [
               {
                 "x": 2170,
@@ -1543,15 +1543,15 @@
               "threats": []
             },
             "id": "a5f6a6f0-701c-45e1-bd72-1d66b6a87c8f",
+            "labels": [
+              "Delete Staff User Record"
+            ],
             "source": {
               "cell": "adf631bc-316c-49a6-a0b8-fe98e9e6cdef"
             },
             "target": {
               "cell": "481dd888-96e6-4d8d-93bc-210e557de577"
-            },
-            "labels": [
-              "Delete Staff User Record"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1582,15 +1582,15 @@
               "threats": []
             },
             "id": "d8e6f204-937f-4b94-a70f-040ee459a5dd",
+            "labels": [
+              "Staff To Delete"
+            ],
             "source": {
               "cell": "1843678d-dec2-4d83-8a2f-81aafcb11a5d"
             },
             "target": {
               "cell": "adf631bc-316c-49a6-a0b8-fe98e9e6cdef"
-            },
-            "labels": [
-              "Staff To Delete"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1621,15 +1621,15 @@
               "threats": []
             },
             "id": "17ca60d1-75c3-40db-9147-378da0279526",
+            "labels": [
+              "Staff user details"
+            ],
             "source": {
               "cell": "3404a5c1-49c7-4c3d-88ec-4efb79612a10"
             },
             "target": {
               "cell": "481dd888-96e6-4d8d-93bc-210e557de577"
-            },
-            "labels": [
-              "Staff user details"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1660,15 +1660,15 @@
               "threats": []
             },
             "id": "18e569aa-26d3-4555-aecf-5f132bfee148",
+            "labels": [
+              "Request Additional Documentation"
+            ],
             "source": {
               "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
             },
             "target": {
               "cell": "003721de-1402-416f-93ad-cf7f92ed44f9"
             },
-            "labels": [
-              "Request Additional Documentation"
-            ],
             "vertices": [
               {
                 "x": 1590,
@@ -1750,6 +1750,9 @@
               "threats": []
             },
             "id": "b4bb366c-2f24-43cf-a67b-f49113d75dbd",
+            "labels": [
+              "Generated Unique Application ID"
+            ],
             "source": {
               "cell": "7d98197d-31f8-4ce1-9942-ead31ab6642f"
             },
@@ -1761,9 +1764,6 @@
                 "x": 510,
                 "y": 540
               }
-            ],
-            "labels": [
-              "Generated Unique Application ID"
             ]
           },
           {
@@ -1795,15 +1795,15 @@
               "threats": []
             },
             "id": "d038dd44-c8dc-4cda-97ab-133175630e65",
+            "labels": [
+              "Supporting Documents from Applicant Email"
+            ],
             "source": {
               "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
             },
             "target": {
               "cell": "d9700edc-fb87-4bfa-94c3-303b77ff4d57"
             },
-            "labels": [
-              "Supporting Documents from Applicant Email"
-            ],
             "vertices": [
               {
                 "x": 1430,
@@ -1840,6 +1840,9 @@
               "threats": []
             },
             "id": "5a8462f8-bc14-4100-b482-7f1f6d12f196",
+            "labels": [
+              "Applicant's Supporting Documents"
+            ],
             "source": {
               "cell": "d9700edc-fb87-4bfa-94c3-303b77ff4d57"
             },
@@ -1851,9 +1854,6 @@
                 "x": 890,
                 "y": 375
               }
-            ],
-            "labels": [
-              "Applicant's Supporting Documents"
             ]
           },
           {
@@ -1885,15 +1885,15 @@
               "threats": []
             },
             "id": "b842a5e8-8ae2-4993-8cb2-165ed76efdfa",
+            "labels": [
+              "Username \nand password"
+            ],
             "source": {
               "cell": "8a698d27-b4b8-48d6-9b46-6973cbad558a"
             },
             "target": {
               "cell": "481dd888-96e6-4d8d-93bc-210e557de577"
             },
-            "labels": [
-              "Username \nand password"
-            ],
             "vertices": [
               {
                 "x": 2360,
@@ -1930,6 +1930,9 @@
               "threats": []
             },
             "id": "e32c554a-c999-45ba-b369-1dc8dae0f530",
+            "labels": [
+              "Boolean"
+            ],
             "source": {
               "cell": "481dd888-96e6-4d8d-93bc-210e557de577"
             },
@@ -1941,9 +1944,6 @@
                 "x": 2390,
                 "y": 529
               }
-            ],
-            "labels": [
-              "Boolean"
             ]
           },
           {
@@ -1975,15 +1975,15 @@
               "threats": []
             },
             "id": "8ba84808-c1ee-4655-8aa4-695455df85ad",
+            "labels": [
+              "Username \nand Password\n"
+            ],
             "source": {
               "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
             },
             "target": {
               "cell": "8a698d27-b4b8-48d6-9b46-6973cbad558a"
             },
-            "labels": [
-              "Username \nand Password\n"
-            ],
             "vertices": [
               {
                 "x": 2040,
@@ -2024,6 +2024,9 @@
               "threats": []
             },
             "id": "f158564c-ecaa-4100-8fbe-80ea6f686ce3",
+            "labels": [
+              "Boolean\n"
+            ],
             "source": {
               "cell": "8a698d27-b4b8-48d6-9b46-6973cbad558a"
             },
@@ -2035,9 +2038,6 @@
                 "x": 2050,
                 "y": 550
               }
-            ],
-            "labels": [
-              "Boolean\n"
             ]
           },
           {
@@ -2159,6 +2159,9 @@
               "threats": []
             },
             "id": "fa984d52-5cba-49a1-ba98-b9a2dec3cfad",
+            "labels": [
+              "Becomes"
+            ],
             "source": {
               "cell": "987e6210-f265-4b47-b525-617451d4898a"
             },
@@ -2170,9 +2173,6 @@
                 "x": 1820,
                 "y": 200
               }
-            ],
-            "labels": [
-              "Becomes"
             ]
           },
           {
@@ -2204,15 +2204,15 @@
               "threats": []
             },
             "id": "9dfcad51-9458-429c-a804-bdf099d21e2c",
+            "labels": [
+              "Communicate Staff Member's Login Details"
+            ],
             "source": {
               "cell": "1843678d-dec2-4d83-8a2f-81aafcb11a5d"
             },
             "target": {
               "cell": "987e6210-f265-4b47-b525-617451d4898a"
-            },
-            "labels": [
-              "Communicate Staff Member's Login Details"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -2243,15 +2243,15 @@
               "threats": []
             },
             "id": "8d038353-d4a0-4138-be4c-95fd3cf1ad3a",
+            "labels": [
+              "Token"
+            ],
             "source": {
               "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
             },
             "target": {
               "cell": "e71bd29d-f88a-404c-8205-a97495577444"
             },
-            "labels": [
-              "Token"
-            ],
             "vertices": [
               {
                 "x": 1780,
@@ -2288,6 +2288,9 @@
               "threats": []
             },
             "id": "a7036334-50f4-4bc4-8fde-cdfc712f6026",
+            "labels": [
+              "Validation Passed (Boolean)"
+            ],
             "source": {
               "cell": "e71bd29d-f88a-404c-8205-a97495577444"
             },
@@ -2303,9 +2306,6 @@
                 "x": 1660,
                 "y": 450
               }
-            ],
-            "labels": [
-              "Validation Passed (Boolean)"
             ]
           },
           {
@@ -2337,6 +2337,9 @@
               "threats": []
             },
             "id": "21371d28-6de5-43a5-b8cc-67c33af8fc39",
+            "labels": [
+              "Applicant and Owner Details"
+            ],
             "source": {
               "cell": "7d98197d-31f8-4ce1-9942-ead31ab6642f"
             },
@@ -2348,9 +2351,6 @@
                 "x": 1240,
                 "y": 660
               }
-            ],
-            "labels": [
-              "Applicant and Owner Details"
             ]
           },
           {
@@ -2382,6 +2382,9 @@
               "threats": []
             },
             "id": "f04111cb-1e1e-4a7b-b11f-b882a629d26d",
+            "labels": [
+              "Decision and list of applicants and owners"
+            ],
             "source": {
               "cell": "e1c84163-4301-4270-ad0c-37febc6a2486"
             },
@@ -2397,9 +2400,6 @@
                 "x": 1470,
                 "y": 100
               }
-            ],
-            "labels": [
-              "Decision and list of applicants and owners"
             ]
           },
           {
@@ -2695,8 +2695,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "e71bd29d-f88a-404c-8205-a97495577444",
             "zIndex": 20,
+            "id": "e71bd29d-f88a-404c-8205-a97495577444",
             "data": {
               "type": "tm.Process",
               "name": "Validate Token\n",
@@ -2729,8 +2729,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "1843678d-dec2-4d83-8a2f-81aafcb11a5d",
             "zIndex": 21,
+            "id": "1843678d-dec2-4d83-8a2f-81aafcb11a5d",
             "data": {
               "type": "tm.Actor",
               "name": "Admin User",
@@ -2763,8 +2763,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "3404a5c1-49c7-4c3d-88ec-4efb79612a10",
             "zIndex": 22,
+            "id": "3404a5c1-49c7-4c3d-88ec-4efb79612a10",
             "data": {
               "type": "tm.Process",
               "name": "Add User",
@@ -2837,8 +2837,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "adf631bc-316c-49a6-a0b8-fe98e9e6cdef",
             "zIndex": 24,
+            "id": "adf631bc-316c-49a6-a0b8-fe98e9e6cdef",
             "data": {
               "type": "tm.Process",
               "name": "Remove\nStaff User",
@@ -2871,8 +2871,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "8a698d27-b4b8-48d6-9b46-6973cbad558a",
             "zIndex": 25,
+            "id": "8a698d27-b4b8-48d6-9b46-6973cbad558a",
             "data": {
               "type": "tm.Process",
               "name": "Verify\nAccount\n",
@@ -2905,8 +2905,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "d9700edc-fb87-4bfa-94c3-303b77ff4d57",
             "zIndex": 26,
+            "id": "d9700edc-fb87-4bfa-94c3-303b77ff4d57",
             "data": {
               "type": "tm.Process",
               "name": "Add Supporting\nDocuments",
@@ -2939,8 +2939,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "c08a2d22-8286-426d-b09a-1c7167a3efb4",
             "zIndex": 27,
+            "id": "c08a2d22-8286-426d-b09a-1c7167a3efb4",
             "data": {
               "type": "tm.Process",
               "name": "Send Decision \nConfirmation",
@@ -2973,12 +2973,12 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "987e6210-f265-4b47-b525-617451d4898a",
             "zIndex": 28,
+            "id": "987e6210-f265-4b47-b525-617451d4898a",
             "data": {
               "type": "tm.Actor",
               "name": "Unauthenticated\nStaff Member",
-              "description": "",
+              "description": "Unauthenticated staff members are able to authenticate and then become Authenticated Staff Member Actors.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
