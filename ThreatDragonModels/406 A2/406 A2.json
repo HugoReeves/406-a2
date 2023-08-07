@@ -34,11 +34,16 @@
               "height": 430
             },
             "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Public Application System"
+              }
+            },
             "zIndex": -1,
             "id": "0e59390f-1da8-42dc-96fb-83c7d3934801",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Public Application System",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -81,14 +86,14 @@
             "shape": "trust-boundary-box",
             "attrs": {
               "headerText": {
-                "text": "Staff Authentication System"
+                "text": "Staff Application Management System"
               }
             },
             "id": "bd695ff6-df99-4a5f-b62e-0e63ddfa2204",
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Staff Authentication System",
+              "name": "Staff Application Management System",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -1444,42 +1449,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "18e569aa-26d3-4555-aecf-5f132bfee148",
-            "source": {
-              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
-            },
-            "target": {
-              "cell": "003721de-1402-416f-93ad-cf7f92ed44f9"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Request\nEmail\n",
               "description": "",
               "outOfScope": false,
@@ -2229,6 +2198,45 @@
             },
             "labels": [
               "Communicate Staff Member's Login Details"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Additional Documentation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "18e569aa-26d3-4555-aecf-5f132bfee148",
+            "source": {
+              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
+            },
+            "target": {
+              "cell": "003721de-1402-416f-93ad-cf7f92ed44f9"
+            },
+            "labels": [
+              "Request Additional Documentation"
             ]
           },
           {
