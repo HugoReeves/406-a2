@@ -2444,6 +2444,9 @@
               ]
             },
             "id": "729dd14d-ab82-4401-91c8-bc23f51e34dc",
+            "labels": [
+              "Decision Confirmation Email"
+            ],
             "source": {
               "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
             },
@@ -2455,9 +2458,6 @@
                 "x": 800,
                 "y": 25
               }
-            ],
-            "labels": [
-              "Decision Confirmation Email"
             ]
           },
           {
@@ -2502,6 +2502,9 @@
               ]
             },
             "id": "749fdacb-b008-4e1c-9860-25a7d5a0501a",
+            "labels": [
+              "Decision Confirmation Email"
+            ],
             "source": {
               "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
             },
@@ -2513,9 +2516,6 @@
                 "x": 290,
                 "y": 160
               }
-            ],
-            "labels": [
-              "Decision Confirmation Email"
             ]
           },
           {
