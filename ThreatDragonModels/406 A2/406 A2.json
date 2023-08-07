@@ -194,8 +194,8 @@
           },
           {
             "position": {
-              "x": 1625,
-              "y": 70
+              "x": 1635,
+              "y": 340
             },
             "size": {
               "width": 112.5,
@@ -203,7 +203,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Staff"
+                "text": "Authenticated\nStaff Member"
               },
               "body": {
                 "stroke": "#333333",
@@ -217,7 +217,7 @@
             "id": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d",
             "data": {
               "type": "tm.Actor",
-              "name": "Staff",
+              "name": "Authenticated\nStaff Member",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -871,51 +871,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Credentials\n ",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "74e49be8-ac19-4d0e-bd5b-b8300d4df5f7",
-            "labels": [
-              "Credentials\n "
-            ],
-            "source": {
-              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
-            },
-            "target": {
-              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
-            },
-            "vertices": [
-              {
-                "x": 1760,
-                "y": 230
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Token\n\n",
               "description": "",
               "outOfScope": false,
@@ -940,51 +895,6 @@
               {
                 "x": 1876.5,
                 "y": 620
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Token\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "623dcbc3-674b-4765-b636-3a165beb6808",
-            "labels": [
-              "Token\n"
-            ],
-            "source": {
-              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
-            },
-            "target": {
-              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
-            },
-            "vertices": [
-              {
-                "x": 1700,
-                "y": 260
               }
             ]
           },
@@ -1628,96 +1538,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Boolean",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "e48ea8a5-c67d-4a6b-a1b7-6b69ad76b226",
-            "source": {
-              "cell": "e71bd29d-f88a-404c-8205-a97495577444"
-            },
-            "target": {
-              "cell": "8eecc5af-98ca-471a-bbf3-08ac1f8d9eca"
-            },
-            "vertices": [
-              {
-                "x": 1225,
-                "y": 590
-              }
-            ],
-            "labels": [
-              "Boolean"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Boolean",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "1edaf130-361b-45ce-9c70-588a1e3cf648",
-            "source": {
-              "cell": "e71bd29d-f88a-404c-8205-a97495577444"
-            },
-            "target": {
-              "cell": "e1c84163-4301-4270-ad0c-37febc6a2486"
-            },
-            "vertices": [
-              {
-                "x": 1440,
-                "y": 550
-              }
-            ],
-            "labels": [
-              "Boolean"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Token",
               "description": "",
               "outOfScope": false,
@@ -1899,45 +1719,6 @@
             },
             "labels": [
               "Staff user details"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Communicate Staff Member's Login Details",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "9dfcad51-9458-429c-a804-bdf099d21e2c",
-            "source": {
-              "cell": "1843678d-dec2-4d83-8a2f-81aafcb11a5d"
-            },
-            "target": {
-              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
-            },
-            "labels": [
-              "Communicate Staff Member's Login Details"
             ]
           },
           {
@@ -2371,21 +2152,17 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "6bac76be-069e-46aa-874f-ee530b8e385a",
+            "id": "f04111cb-1e1e-4a7b-b11f-b882a629d26d",
             "source": {
               "cell": "e1c84163-4301-4270-ad0c-37febc6a2486"
             },
             "target": {
-              "cell": "e71bd29d-f88a-404c-8205-a97495577444"
+              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
             },
             "vertices": [
               {
-                "x": 1470,
-                "y": 630
-              },
-              {
-                "x": 1370,
-                "y": 680
+                "x": 1240,
+                "y": 280
               }
             ]
           },
@@ -2407,7 +2184,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Token",
+              "name": "Credentials\n ",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2417,21 +2194,150 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "23a19cdf-c7f6-4a33-8a13-2457c6d93446",
+            "id": "74e49be8-ac19-4d0e-bd5b-b8300d4df5f7",
+            "labels": [
+              "Credentials\n "
+            ],
             "source": {
-              "cell": "8eecc5af-98ca-471a-bbf3-08ac1f8d9eca"
+              "cell": "987e6210-f265-4b47-b525-617451d4898a"
             },
             "target": {
-              "cell": "e71bd29d-f88a-404c-8205-a97495577444"
+              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
             },
             "vertices": [
               {
-                "x": 1300,
-                "y": 560
+                "x": 2000,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Token\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "623dcbc3-674b-4765-b636-3a165beb6808",
+            "labels": [
+              "Token\n"
+            ],
+            "source": {
+              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
+            },
+            "target": {
+              "cell": "987e6210-f265-4b47-b525-617451d4898a"
+            },
+            "vertices": [
+              {
+                "x": 1871.5,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Becomes",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "fa984d52-5cba-49a1-ba98-b9a2dec3cfad",
+            "source": {
+              "cell": "987e6210-f265-4b47-b525-617451d4898a"
+            },
+            "target": {
+              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
+            },
+            "vertices": [
+              {
+                "x": 1820,
+                "y": 200
               }
             ],
             "labels": [
-              "Token"
+              "Becomes"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": "5 2"
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Communicate Staff Member's Login Details",
+              "description": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "Communicated out of band over some existing communication channel.",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "9dfcad51-9458-429c-a804-bdf099d21e2c",
+            "source": {
+              "cell": "1843678d-dec2-4d83-8a2f-81aafcb11a5d"
+            },
+            "target": {
+              "cell": "987e6210-f265-4b47-b525-617451d4898a"
+            },
+            "labels": [
+              "Communicate Staff Member's Login Details"
             ]
           },
           {
@@ -2504,8 +2410,8 @@
           },
           {
             "position": {
-              "x": 1805,
-              "y": 450
+              "x": 1800,
+              "y": 474.6875
             },
             "size": {
               "width": 130,
@@ -2607,7 +2513,7 @@
           {
             "position": {
               "x": 1085,
-              "y": -55
+              "y": -152.1875
             },
             "size": {
               "width": 110,
@@ -2640,8 +2546,8 @@
           },
           {
             "position": {
-              "x": 1516.25,
-              "y": 430
+              "x": 1536.25,
+              "y": 405
             },
             "size": {
               "width": 150,
@@ -2946,6 +2852,74 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1108,
+              "y": -30.000000000000007
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Send Decision \nConfirmation"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "c08a2d22-8286-426d-b09a-1c7167a3efb4",
+            "zIndex": 27,
+            "data": {
+              "type": "tm.Process",
+              "name": "Send Decision \nConfirmation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1893,
+              "y": 10
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Unauthenticated\nStaff Member"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "987e6210-f265-4b47-b525-617451d4898a",
+            "zIndex": 28,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Unauthenticated\nStaff Member",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
             }
