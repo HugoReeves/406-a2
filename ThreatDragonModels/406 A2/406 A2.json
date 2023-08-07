@@ -79,11 +79,16 @@
               "height": 421.875
             },
             "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Staff Authentication System"
+              }
+            },
             "id": "bd695ff6-df99-4a5f-b62e-0e63ddfa2204",
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Staff Authentication System",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
