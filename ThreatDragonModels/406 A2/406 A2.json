@@ -278,6 +278,19 @@
                   "new": false,
                   "number": 23,
                   "score": ""
+                },
+                {
+                  "id": "b5e33410-6d2f-45e0-8873-8581dab8e8df",
+                  "title": "Effective Logging required to mitigate uncontrolled database access",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "If a malicious actor is able to extract data either through a process or through direct access to the database, we want to know what data they have extracted.",
+                  "mitigation": "Add sufficient logging and log retention to all database access to understand how the database may have been exploited.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
                 }
               ]
             }
@@ -3609,6 +3622,19 @@
                   "new": false,
                   "number": 19,
                   "score": ""
+                },
+                {
+                  "id": "f27eefa7-6a91-4b5b-bad2-979fd5805084",
+                  "title": "DoS Attack",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "The Consult Progress service which is public facing could face a DoS attack.",
+                  "mitigation": "Place the service behind a proxy that defends against DoS attacks.\nLog access IPs.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
                 }
               ]
             }
@@ -3627,6 +3653,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 30
+    "threatTop": 32
   }
 }
