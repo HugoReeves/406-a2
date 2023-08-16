@@ -296,11 +296,13 @@
                 "text": "File Store"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -318,8 +320,22 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "990ea344-83eb-455f-a5e7-81b1b8c83c71",
+                  "title": "Leak of Application Documents and PII of Applicants",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Applications are confidential, particularly because they contain PII data relating to owners and applicants.",
+                  "mitigation": "Effective logging, and ensuring the public application system boundary is well hardened.\nOnly store the data that is needed.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -393,7 +409,21 @@
               "reasonOutOfScope": "",
               "privilegeLevel": "",
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "61d5b366-6a3b-486e-b77f-aa728debd367",
+                  "title": "DoS",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Because this process is not gated by any authentication, it would be easy for a malicious actor to attempt a denial of service attack.",
+                  "mitigation": "Place the service behind a proxy that defends against DoS.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1103,55 +1133,6 @@
               {
                 "x": 1240,
                 "y": 730
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Email with\nSupporting Documents",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "98b6f140-8c92-4b39-997e-27c0661e7097",
-            "labels": [
-              "Email with\nSupporting Documents"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "43e55e64-3ed4-46d5-9923-a30a2f8a9e1b"
-            },
-            "vertices": [
-              {
-                "x": 810,
-                "y": -360
-              },
-              {
-                "x": 1120,
-                "y": -230
               }
             ]
           },
@@ -2639,65 +2620,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Personal Details",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": [
-                {
-                  "id": "37b48519-69ff-40a2-abb9-a9f41c90c04d",
-                  "title": "Personal data can be stolen",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "An adversary in the middle can steal the personal data of the user.",
-                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 7,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "a8442aa1-cdc7-4ad3-b2f1-9ae4b7dd7582",
-            "labels": [
-              "Personal Details"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
-            },
-            "vertices": [
-              {
-                "x": 620,
-                "y": 200
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Owner(s) Personal Details\n",
               "description": "",
               "outOfScope": false,
@@ -2875,6 +2797,65 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Personal Details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "37b48519-69ff-40a2-abb9-a9f41c90c04d",
+                  "title": "Personal data can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the PII of the applicant.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "a8442aa1-cdc7-4ad3-b2f1-9ae4b7dd7582",
+            "labels": [
+              "Personal Details"
+            ],
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Request\nEmail\n",
               "description": "",
               "outOfScope": false,
@@ -2899,6 +2880,55 @@
               {
                 "x": 910,
                 "y": -20
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Email with\nSupporting Documents",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "98b6f140-8c92-4b39-997e-27c0661e7097",
+            "labels": [
+              "Email with\nSupporting Documents"
+            ],
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "43e55e64-3ed4-46d5-9923-a30a2f8a9e1b"
+            },
+            "vertices": [
+              {
+                "x": 810,
+                "y": -360
+              },
+              {
+                "x": 1120,
+                "y": -230
               }
             ]
           },
@@ -3542,6 +3572,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 23
+    "threatTop": 26
   }
 }
