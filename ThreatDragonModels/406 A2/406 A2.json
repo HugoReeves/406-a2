@@ -2282,8 +2282,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
                 "targetMarker": {
                   "name": "classic"
                 },
@@ -2303,8 +2302,22 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "2dfea88b-3e10-46b8-b67a-21745acaa474",
+                  "title": "Brute force of Application ID",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "It is plausible that with an 8 character application ID, malicious actors could brute force the IDs to discover application details. This is particularly concerning if an application ID allows recovering supported documents from the service.",
+                  "mitigation": "In the current implementation, simply rate limiting and effectively logging application checks can mitigate this risk but does not eliminate it.\nMitigations with a new system design:\n- Utilize a longer application ID, eg. 24 character.\n- Implement a login system.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 41,
+                  "score": ""
+                }
+              ]
             },
             "id": "2561b2b5-1b6a-4fdc-b5da-e4e89230db50",
             "labels": [
@@ -3722,6 +3735,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 39
+    "threatTop": 41
   }
 }
