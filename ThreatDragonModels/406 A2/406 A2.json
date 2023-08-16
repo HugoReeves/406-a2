@@ -3433,7 +3433,21 @@
               "isEncrypted": false,
               "isSigned": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "bc1f34d2-08f7-4cca-9911-3ec467855593",
+                  "title": "Malicious Actor alters staff credentials",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "A malicious actor with access to the database may change a staff's credentials, this could enable a repudiation attack in which the malicious actor successfully authenticates as any staff member.",
+                  "mitigation": "Effective logging of all database accesses and frequent database backups.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3681,6 +3695,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 34
+    "threatTop": 35
   }
 }
