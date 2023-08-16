@@ -1140,8 +1140,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
                 "targetMarker": {
                   "name": "classic"
                 },
@@ -1161,8 +1160,22 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "e4f45e88-030f-466c-a47a-b04131f0dd32",
+                  "title": "Leak of Applicant Supporting Information",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "The current architecture requires staff members to download and then re-upload supporting data from applicants. This is needlessly complex and incorporates human risk factors where none are needed. It is possible that a staff member might leak documents in this process.",
+                  "mitigation": "Redesign system to automatically attach submitted user documentation to their application, without a human in the loop.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                }
+              ]
             },
             "id": "2b0ac2b9-aba9-41b4-83c3-efd97be5493e",
             "labels": [
@@ -1809,96 +1822,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Credentials\n ",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "74e49be8-ac19-4d0e-bd5b-b8300d4df5f7",
-            "labels": [
-              "Credentials\n "
-            ],
-            "source": {
-              "cell": "987e6210-f265-4b47-b525-617451d4898a"
-            },
-            "target": {
-              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
-            },
-            "vertices": [
-              {
-                "x": 2000,
-                "y": 200
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Token\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "623dcbc3-674b-4765-b636-3a165beb6808",
-            "labels": [
-              "Token\n"
-            ],
-            "source": {
-              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
-            },
-            "target": {
-              "cell": "987e6210-f265-4b47-b525-617451d4898a"
-            },
-            "vertices": [
-              {
-                "x": 1871.5,
-                "y": 160
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Becomes",
               "description": "",
               "outOfScope": false,
@@ -1921,8 +1844,8 @@
             },
             "vertices": [
               {
-                "x": 1800,
-                "y": 180
+                "x": 1760,
+                "y": 190
               }
             ]
           },
@@ -2933,6 +2856,124 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Credentials\n ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "db2eb567-1cbb-4a1f-a7bb-40cbd122c0ed",
+                  "title": "Leak of Credentials",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Credentials may be leaked if communicated over an insecure channel. If staff credentials are leaked, significant customer data may be disclosed to malicious actors.",
+                  "mitigation": "Only communicate secrets over TLS.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "74e49be8-ac19-4d0e-bd5b-b8300d4df5f7",
+            "labels": [
+              "Credentials\n "
+            ],
+            "source": {
+              "cell": "987e6210-f265-4b47-b525-617451d4898a"
+            },
+            "target": {
+              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
+            },
+            "vertices": [
+              {
+                "x": 2000,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Token\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "a4d482cd-f5c5-44e2-9653-ca5e7d03b943",
+                  "title": "Leak of Auth Token",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Leaking the auth token could result in malicious actors acting as authenticated staff members.",
+                  "mitigation": "Only send auth tokens over TLS.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "623dcbc3-674b-4765-b636-3a165beb6808",
+            "labels": [
+              "Token\n"
+            ],
+            "source": {
+              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
+            },
+            "target": {
+              "x": 1930,
+              "y": 70
+            },
+            "vertices": [
+              {
+                "x": 1871.5,
+                "y": 160
+              }
+            ]
+          },
+          {
             "position": {
               "x": 885.9999999999995,
               "y": -260
@@ -3096,8 +3137,8 @@
                 "text": "Request \nDocumentation\n"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -3112,8 +3153,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "98dc08fa-a908-47e4-a1d5-342ae6197f8d",
+                  "title": "Malicious Actor Spoofs Email Requesting Documentation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "A malicious actor may send spoof email to applicants requesting they send additional documentation to a fishing address.",
+                  "mitigation": "Current mitigations are weak. Educate users to only trust emails from the host domain.\nRedesign system to utilise a login and upload via website.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3572,6 +3627,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 26
+    "threatTop": 30
   }
 }
