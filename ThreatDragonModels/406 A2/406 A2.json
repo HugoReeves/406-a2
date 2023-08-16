@@ -477,51 +477,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Personal Details",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "a8442aa1-cdc7-4ad3-b2f1-9ae4b7dd7582",
-            "labels": [
-              "Personal Details"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
-            },
-            "vertices": [
-              {
-                "x": 620,
-                "y": 200
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Owner(s) personal details\n",
               "description": "",
               "outOfScope": false,
@@ -546,51 +501,6 @@
               {
                 "x": 200,
                 "y": -50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Owner(s) Personal Details\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "36f14e18-010a-40cb-a78a-4235fbaa28db",
-            "labels": [
-              "Owner(s) Personal Details\n"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
-            },
-            "vertices": [
-              {
-                "x": 510,
-                "y": 230
               }
             ]
           },
@@ -2418,6 +2328,9 @@
               "threats": []
             },
             "id": "15264663-f8c3-46d2-a1bd-ce33f6a33bad",
+            "labels": [
+              "8 Character ID"
+            ],
             "source": {
               "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
             },
@@ -2429,9 +2342,6 @@
                 "x": 230,
                 "y": 110
               }
-            ],
-            "labels": [
-              "8 Character ID"
             ]
           },
           {
@@ -2463,15 +2373,15 @@
               "threats": []
             },
             "id": "2561b2b5-1b6a-4fdc-b5da-e4e89230db50",
+            "labels": [
+              "8 Character ID"
+            ],
             "source": {
               "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
             },
             "target": {
               "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
             },
-            "labels": [
-              "8 Character ID"
-            ],
             "vertices": [
               {
                 "x": -120,
@@ -2508,6 +2418,9 @@
               "threats": []
             },
             "id": "f8567645-3dbe-4586-85cb-55cb151d13b8",
+            "labels": [
+              "Status"
+            ],
             "source": {
               "cell": "7d98197d-31f8-4ce1-9942-ead31ab6642f"
             },
@@ -2519,9 +2432,6 @@
                 "x": 270,
                 "y": 640
               }
-            ],
-            "labels": [
-              "Status"
             ]
           },
           {
@@ -2553,6 +2463,9 @@
               "threats": []
             },
             "id": "d70cb75f-dc4a-4d20-bada-0c9024d7552b",
+            "labels": [
+              "Status"
+            ],
             "source": {
               "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
             },
@@ -2564,9 +2477,6 @@
                 "x": 190,
                 "y": 80
               }
-            ],
-            "labels": [
-              "Status"
             ]
           },
           {
@@ -2598,6 +2508,9 @@
               "threats": []
             },
             "id": "dbb7a351-e7ec-4117-8988-996fc94bf158",
+            "labels": [
+              "Status"
+            ],
             "source": {
               "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
             },
@@ -2609,9 +2522,6 @@
                 "x": -170,
                 "y": 240
               }
-            ],
-            "labels": [
-              "Status"
             ]
           },
           {
@@ -2643,6 +2553,9 @@
               "threats": []
             },
             "id": "d4074b45-a837-4cdb-b3c9-2440f8976f8c",
+            "labels": [
+              "Supporting Documents"
+            ],
             "source": {
               "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
             },
@@ -2654,54 +2567,6 @@
                 "x": -200,
                 "y": 280
               }
-            ],
-            "labels": [
-              "Supporting Documents"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Supporting Documents",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "d46b43d1-e75c-4161-b037-f8812069efe2",
-            "source": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
-            },
-            "target": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "vertices": [
-              {
-                "x": 160,
-                "y": 50
-              }
-            ],
-            "labels": [
-              "Supporting Documents"
             ]
           },
           {
@@ -2733,6 +2598,9 @@
               "threats": []
             },
             "id": "43dcf0f9-f221-44b1-aa8a-8327325cbdba",
+            "labels": [
+              "Supporting Documents"
+            ],
             "source": {
               "cell": "b6dbed27-0009-42fc-af44-335d946996bb"
             },
@@ -2748,9 +2616,124 @@
                 "x": 240,
                 "y": 650
               }
-            ],
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Personal Details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "37b48519-69ff-40a2-abb9-a9f41c90c04d",
+                  "title": "Personal data can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the personal data of the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "a8442aa1-cdc7-4ad3-b2f1-9ae4b7dd7582",
             "labels": [
-              "Supporting Documents"
+              "Personal Details"
+            ],
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Owner(s) Personal Details\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "c1b01ae6-05c0-47e7-ae77-3610b64ce912",
+                  "title": "Personal data can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the personal data of the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "36f14e18-010a-40cb-a78a-4235fbaa28db",
+            "labels": [
+              "Owner(s) Personal Details\n"
+            ],
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 230
+              }
             ]
           },
           {
@@ -2779,7 +2762,80 @@
               "isEncrypted": false,
               "isPublicNetwork": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "a183fe61-4c3f-4ddd-9a97-25a2cfe155a0",
+                  "title": "Supporting documents can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the supporting documents of the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "d46b43d1-e75c-4161-b037-f8812069efe2",
+            "labels": [
+              "Supporting Documents"
+            ],
+            "source": {
+              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
+            },
+            "target": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "vertices": [
+              {
+                "x": 160,
+                "y": 50
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Supporting Documents",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "2570df6a-e754-4ec1-9032-db32334c4ac7",
+                  "title": "Supporting documents can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the supporting documents of the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ]
             },
             "id": "160c3ad1-3ba2-44cd-aee5-a8d6dc0661b3",
             "labels": [
@@ -3410,6 +3466,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 6
+    "threatTop": 12
   }
 }
