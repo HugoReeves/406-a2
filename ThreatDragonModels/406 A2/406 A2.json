@@ -223,7 +223,21 @@
               "reasonOutOfScope": "",
               "providesAuthentication": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "122e517b-977d-4c78-a222-c50c0e265bd7",
+                  "title": "Malicious Actor acquires staff credentials",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "A malicious actor may be able to authenticate as a staff member. This may be achieved through any number of exploits, such as a re-used password.",
+                  "mitigation": "Effective logging of all authenticated staff member actions should be used. In the case that it becomes known that a staff member's account has been compromised, it will be possible to effectively trace the actions of a malicious actor.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -237,7 +251,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Application Status\nDatabase"
+                "text": "Application\nDatabase"
               },
               "topLine": {
                 "stroke": "red",
@@ -256,7 +270,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Store",
-              "name": "Application Status\nDatabase",
+              "name": "Application\nDatabase",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3051,7 +3065,21 @@
               "reasonOutOfScope": "",
               "privilegeLevel": "",
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "54a2e8dd-5a05-4931-91a2-e0eddf4ff082",
+                  "title": "Staff sign in DoS attack",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "The sign in page could suffer a DoS attack.",
+                  "mitigation": "Place the internal staff features of the application behind a firewall/on an intranet that is not accessible to the open web.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3653,6 +3681,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 32
+    "threatTop": 34
   }
 }
