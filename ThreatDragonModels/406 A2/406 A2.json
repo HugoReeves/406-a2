@@ -2523,7 +2523,21 @@
               "isEncrypted": false,
               "isPublicNetwork": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "7a80dc15-2510-42a7-a399-351ad741b498",
+                  "title": "Leak of Supporting Documents",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Supporting documents are considered confidential.",
+                  "mitigation": "Supporting documents should only be communicated over TLS encrypted channels.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                }
+              ]
             },
             "id": "d4074b45-a837-4cdb-b3c9-2440f8976f8c",
             "labels": [
@@ -2831,7 +2845,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
+                "stroke": "#333333",
+                "strokeWidth": 1,
                 "targetMarker": {
                   "name": "classic"
                 },
@@ -2851,22 +2866,8 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "5a239d06-056e-4a78-ab7a-6d2df7e1ad33",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 0,
-                  "score": ""
-                }
-              ]
+              "hasOpenThreats": false,
+              "threats": []
             },
             "id": "5b32677e-fdd1-4665-a12f-dc74408da675",
             "labels": [
@@ -3001,8 +3002,8 @@
                 "text": "Give ID"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 3,
+                "stroke": "#333333",
+                "strokeWidth": 1,
                 "strokeDasharray": "5 2"
               }
             },
@@ -3017,16 +3018,16 @@
               "outOfScope": true,
               "reasonOutOfScope": "Applicants will communicate the 8 Character application ID via existing communication channels.",
               "privilegeLevel": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
                   "id": "88fc2b9e-a61a-43f7-bb1b-9df3c2ac5ad2",
-                  "title": "TODO: Threat of application ID leaking",
-                  "status": "Open",
+                  "title": "Application ID Leak",
+                  "status": "NotApplicable",
                   "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Develop a process to communicate 8 character application ID to all Owners and Applicants.",
+                  "type": "Information disclosure",
+                  "description": "The Applicant is responsible for communicating the application ID to other owners. In doing so the application ID may be leaked. This process if out of our control.",
+                  "mitigation": "No current mitigation. A better system would directly communicate the application ID to all owners and applicants.",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 4,
@@ -3477,8 +3478,8 @@
                 "text": "Consult Progress"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -3493,8 +3494,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "65e5bb29-f8bb-419b-969f-f1a0e3c5292a",
+                  "title": "Leak of Application Progress",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": "If a malicious actor obtains an application ID that is not their own, they may consult progress and leak information. The status of an application is likely not highly confidential information.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                }
+              ]
             }
           }
         ]
@@ -3511,6 +3526,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 16
+    "threatTop": 20
   }
 }
