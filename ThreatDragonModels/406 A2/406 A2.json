@@ -3144,8 +3144,8 @@
                 "text": "Give ID"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": "5 2"
               }
             },
@@ -3160,7 +3160,7 @@
               "outOfScope": true,
               "reasonOutOfScope": "Applicants will communicate the 8 Character application ID via existing communication channels.",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "threats": [
                 {
                   "id": "88fc2b9e-a61a-43f7-bb1b-9df3c2ac5ad2",
@@ -3173,6 +3173,19 @@
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "67efd807-aadf-46d0-bd73-2f1250e2e9f4",
+                  "title": "Elevation of privelege from Owner to Applicant",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Only a single applicaiton ID of 8 characters is used to identify an application. Once this is shared from the applicant to the owners, there is no way to distinguish between applicant and owners. This allows owners to act as if they are the applicant.",
+                  "mitigation": "Add a full login/auth system for applicants and owners.\nProvide separate application IDs to check status of an application, one for the applicant and one for the owners.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 39,
                   "score": ""
                 }
               ]
@@ -3709,6 +3722,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 37
+    "threatTop": 39
   }
 }
