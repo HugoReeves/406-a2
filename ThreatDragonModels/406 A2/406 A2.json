@@ -2282,64 +2282,6 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "8 Character ID",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "2dfea88b-3e10-46b8-b67a-21745acaa474",
-                  "title": "Brute force of Application ID",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "It is plausible that with an 8 character application ID, malicious actors could brute force the IDs to discover application details. This is particularly concerning if an application ID allows recovering supported documents from the service.",
-                  "mitigation": "In the current implementation, simply rate limiting and effectively logging application checks can mitigate this risk but does not eliminate it.\nMitigations with a new system design:\n- Utilize a longer application ID, eg. 24 character.\n- Implement a login system.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 41,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "2561b2b5-1b6a-4fdc-b5da-e4e89230db50",
-            "labels": [
-              "8 Character ID"
-            ],
-            "source": {
-              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
-            },
-            "target": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
-            },
-            "vertices": [
-              {
-                "x": -120,
-                "y": 220
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
                 "targetMarker": {
@@ -3028,6 +2970,64 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "8 Character ID",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "2dfea88b-3e10-46b8-b67a-21745acaa474",
+                  "title": "Brute force of Application ID",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "It is plausible that with an 8 character application ID, malicious actors could brute force the IDs to discover application details. This is particularly concerning if an application ID allows recovering supported documents from the service.",
+                  "mitigation": "In the current implementation, simply rate limiting and effectively logging application checks can mitigate this risk but does not eliminate it.\nMitigations with a new system design:\n- Utilize a longer application ID, eg. 24 character.\n- Implement a login system.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 41,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "2561b2b5-1b6a-4fdc-b5da-e4e89230db50",
+            "labels": [
+              "8 Character ID"
+            ],
+            "source": {
+              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
+            },
+            "target": {
+              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
+            },
+            "vertices": [
+              {
+                "x": -120,
+                "y": 220
+              }
+            ]
+          },
+          {
             "position": {
               "x": 885.9999999999995,
               "y": -260
@@ -3104,6 +3104,19 @@
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 34,
+                  "score": ""
+                },
+                {
+                  "id": "bf5384b5-188b-4009-9511-e9e656471a7b",
+                  "title": "Potential leak of username details",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "If the login page provides a different error message when attempting authenticate with a username that exists, compared to the error message for a username that does not exist, it is possible that usernames will get leaked. This is not a significant issue but is a concern.",
+                  "mitigation": "Provide the same error message for usernames that do and do not exist.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 42,
                   "score": ""
                 }
               ]
@@ -3735,6 +3748,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 41
+    "threatTop": 42
   }
 }
