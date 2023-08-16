@@ -598,8 +598,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
                 "targetMarker": {
                   "name": "classic"
                 },
@@ -619,8 +618,22 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "2cef95ef-b93c-4860-b413-01bbe6cbcf40",
+                  "title": "Leak of ID",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "It is possible that the ID may be leaked to a malicious actor, this is a particular risk in the case that a receivers email is compromised.",
+                  "mitigation": "No mitigation in place given the current architecture. It would be preferable to return this ID immediately upon receiving an application, to ensure the ID is received by the same person submitting the application.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                }
+              ]
             },
             "id": "31720944-a875-4c8b-8902-656d75d41d8b",
             "labels": [
@@ -632,7 +645,12 @@
             "target": {
               "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 760,
+                "y": -170
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -981,51 +999,6 @@
             "target": {
               "cell": "e16202e6-c24f-42a6-ad0f-f3fec71e300e"
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request\nEmail\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "5b32677e-fdd1-4665-a12f-dc74408da675",
-            "labels": [
-              "Request\nEmail\n"
-            ],
-            "source": {
-              "cell": "003721de-1402-416f-93ad-cf7f92ed44f9"
-            },
-            "target": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "vertices": [
-              {
-                "x": 900,
-                "y": 20
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1951,8 +1924,8 @@
             },
             "vertices": [
               {
-                "x": 1820,
-                "y": 200
+                "x": 1800,
+                "y": 180
               }
             ]
           },
@@ -2855,6 +2828,51 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request\nEmail\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "5b32677e-fdd1-4665-a12f-dc74408da675",
+            "labels": [
+              "Request\nEmail\n"
+            ],
+            "source": {
+              "cell": "003721de-1402-416f-93ad-cf7f92ed44f9"
+            },
+            "target": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "vertices": [
+              {
+                "x": 910,
+                "y": -20
+              }
+            ]
+          },
+          {
             "position": {
               "x": 885.9999999999995,
               "y": -260
@@ -3103,7 +3121,21 @@
               "reasonOutOfScope": "",
               "privilegeLevel": "",
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "bbe802fc-f86d-4cbb-ba11-637321abfad8",
+                  "title": "Denial of Service via Spam",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "A malicious actor may spam emails to the receiver service, effectively taking the service offline.",
+                  "mitigation": "Rate limit inbound emails by domain or IP.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3466,6 +3498,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 12
+    "threatTop": 15
   }
 }
