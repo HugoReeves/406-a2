@@ -229,8 +229,8 @@
                   "title": "Malicious Actor acquires staff credentials",
                   "status": "Mitigated",
                   "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "A malicious actor may be able to authenticate as a staff member. This may be achieved through any number of exploits, such as a re-used password.",
+                  "type": "Repudiation",
+                  "description": "A malicious actor may be able to authenticate as a staff member. This may be achieved through any number of exploits, such as a re-used password or directly exploiting the auth database.",
                   "mitigation": "Effective logging of all authenticated staff member actions should be used. In the case that it becomes known that a staff member's account has been compromised, it will be possible to effectively trace the actions of a malicious actor.",
                   "modelType": "STRIDE",
                   "new": false,
@@ -368,7 +368,7 @@
           {
             "position": {
               "x": 1810,
-              "y": 680
+              "y": 683.59375
             },
             "size": {
               "width": 120,
@@ -402,7 +402,21 @@
               "isEncrypted": false,
               "isSigned": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "0ea59adc-d5cb-4d08-8087-b0991ee66f97",
+                  "title": "Malicious Actor updates tokens to gain access",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "A malicious actor with access to this token database may effectively write any auth token to any staff member. This would allow the actor to authenticate as anyone they wish, allowing a repudiation attack.",
+                  "mitigation": "Effective logging on all KV accesses. Harden this system and ensure it is difficult for a malicious actor to attack.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3695,6 +3709,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 35
+    "threatTop": 37
   }
 }
