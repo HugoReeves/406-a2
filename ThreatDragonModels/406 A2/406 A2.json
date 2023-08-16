@@ -237,14 +237,16 @@
             },
             "attrs": {
               "text": {
-                "text": "Relational\nDatabase"
+                "text": "Application Status\nDatabase"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -254,7 +256,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Store",
-              "name": "Relational\nDatabase",
+              "name": "Application Status\nDatabase",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -262,8 +264,22 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "42d1bc07-5253-49f7-811c-51ea8b578acf",
+                  "title": "Leak of Applications and PII of Applicants",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Applications are confidential, particularly because they contain PII data relating to owners and applicants.",
+                  "mitigation": "Effective logging, and ensuring the public application system boundary is well hardened.\nOnly store the data that is needed.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3526,6 +3542,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 20
+    "threatTop": 23
   }
 }
