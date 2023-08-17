@@ -1181,64 +1181,6 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Supporting Documents",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "e4f45e88-030f-466c-a47a-b04131f0dd32",
-                  "title": "Leak of Applicant Supporting Information",
-                  "status": "Open",
-                  "severity": "Low",
-                  "type": "Information disclosure",
-                  "description": "The current architecture requires staff members to download and then re-upload supporting data from applicants. This is needlessly complex and incorporates human risk factors where none are needed. It is possible that a staff member might leak documents in this process.",
-                  "mitigation": "Redesign system to automatically attach submitted user documentation to their application, without a human in the loop.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 28,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "2b0ac2b9-aba9-41b4-83c3-efd97be5493e",
-            "labels": [
-              "Supporting Documents"
-            ],
-            "source": {
-              "cell": "43e55e64-3ed4-46d5-9923-a30a2f8a9e1b"
-            },
-            "target": {
-              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
-            },
-            "vertices": [
-              {
-                "x": 1640,
-                "y": -138.5
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
                 "targetMarker": {
@@ -2114,64 +2056,6 @@
               {
                 "x": 1470,
                 "y": 100
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Decision Confirmation Email",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "26b2bb9b-8faa-4dd0-aaa3-6297f34f74a3",
-                  "title": "Potential Fishing Attack",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 5,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "729dd14d-ab82-4401-91c8-bc23f51e34dc",
-            "labels": [
-              "Decision Confirmation Email"
-            ],
-            "source": {
-              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
-            },
-            "target": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "vertices": [
-              {
-                "x": 800,
-                "y": 25
               }
             ]
           },
@@ -3144,6 +3028,109 @@
               {
                 "x": 230,
                 "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Supporting Documents",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "e4f45e88-030f-466c-a47a-b04131f0dd32",
+                  "title": "Leak of Applicant Supporting Information",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "The current architecture requires staff members to download and then re-upload supporting data from applicants. This is needlessly complex and incorporates human risk factors where none are needed. It is possible that a staff member might leak documents in this process.",
+                  "mitigation": "Redesign system to automatically attach submitted user documentation to their application, without a human in the loop.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "2b0ac2b9-aba9-41b4-83c3-efd97be5493e",
+            "labels": [
+              "Supporting Documents"
+            ],
+            "source": {
+              "cell": "43e55e64-3ed4-46d5-9923-a30a2f8a9e1b"
+            },
+            "target": {
+              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
+            },
+            "vertices": [
+              {
+                "x": 1640,
+                "y": -138.5
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Decision Confirmation Email",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "729dd14d-ab82-4401-91c8-bc23f51e34dc",
+            "labels": [
+              "Decision Confirmation Email"
+            ],
+            "source": {
+              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
+            },
+            "target": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": 25
               }
             ]
           },
