@@ -1,5 +1,5 @@
 {
-  "version": "2.0.5",
+  "version": "2.0.3",
   "summary": {
     "title": "406 A2",
     "owner": "",
@@ -3739,8 +3739,8 @@
                 "text": "Send Decision \nConfirmation"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -3755,8 +3755,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "598f64ce-8b43-40bb-8da3-9280e9aed326",
+                  "title": "Malicious Actor Spoofs Email Sending Decision",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "A malicious actor may send spoof email to applicants requesting they click a link to view the decision.",
+                  "mitigation": "Current mitigations are weak. Educate users to only trust emails from the host domain.\nRedesign system to utilise a login and upload via website.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 57,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3859,6 +3873,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 56
+    "threatTop": 58
   }
 }
