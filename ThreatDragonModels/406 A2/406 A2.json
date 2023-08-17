@@ -26,56 +26,6 @@
         "cells": [
           {
             "position": {
-              "x": -112.66666666666697,
-              "y": 317.03125000000006
-            },
-            "size": {
-              "width": 910,
-              "height": 426.5624999999999
-            },
-            "shape": "trust-boundary-box",
-            "attrs": {
-              "headerText": {
-                "text": "Public Application System"
-              }
-            },
-            "zIndex": -1,
-            "id": "0e59390f-1da8-42dc-96fb-83c7d3934801",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Public Application System",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 730,
-              "y": -289.375
-            },
-            "size": {
-              "width": 820,
-              "height": 384.375
-            },
-            "shape": "trust-boundary-box",
-            "attrs": {
-              "headerText": {
-                "text": "Mail Service\n"
-              }
-            },
-            "zIndex": -1,
-            "id": "6c66831f-9f89-4071-98a5-83fdcc2a5cc9",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Mail Service\n",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
               "x": 1025,
               "y": 310
             },
@@ -126,16 +76,66 @@
           },
           {
             "position": {
-              "x": 453.75,
-              "y": -150
+              "x": -669.3333333333335,
+              "y": 270
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 1429.3333333333335,
+              "height": 670
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Public Application System"
+              }
+            },
+            "zIndex": -1,
+            "id": "0e59390f-1da8-42dc-96fb-83c7d3934801",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Public Application System",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 788,
+              "y": -450.0000000000001
+            },
+            "size": {
+              "width": 600,
+              "height": 281.25000000000006
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "User Management System"
+              }
+            },
+            "id": "46de433f-a902-42be-9a75-a993388c08fa",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "User Management System",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 5.3333333333332575,
+              "y": 340
+            },
+            "size": {
+              "width": 160,
+              "height": 85.33333333333333
             },
             "attrs": {
               "text": {
-                "text": "Applicant"
+                "text": "Applicant (Logged in)"
               },
               "body": {
                 "stroke": "#333333",
@@ -149,7 +149,7 @@
             "id": "a0533989-0845-46b8-83c0-d67ba90c43c8",
             "data": {
               "type": "tm.Actor",
-              "name": "Applicant",
+              "name": "Applicant (Logged in)",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -160,8 +160,8 @@
           },
           {
             "position": {
-              "x": -320,
-              "y": 55
+              "x": -640,
+              "y": 339.8333333333333
             },
             "size": {
               "width": 112.5,
@@ -169,7 +169,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Owner(s)"
+                "text": "Owner(s) (Logged in)"
               },
               "body": {
                 "stroke": "#333333",
@@ -183,7 +183,7 @@
             "id": "4a32fb74-9b0a-49d7-b447-c7f535291fb2",
             "data": {
               "type": "tm.Actor",
-              "name": "Owner(s)",
+              "name": "Owner(s) (Logged in)",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -243,7 +243,7 @@
           {
             "position": {
               "x": 610,
-              "y": 630
+              "y": 880
             },
             "size": {
               "width": 120,
@@ -311,8 +311,8 @@
           },
           {
             "position": {
-              "x": 600,
-              "y": 450
+              "x": 640,
+              "y": 769.375
             },
             "size": {
               "width": 120,
@@ -421,8 +421,8 @@
           },
           {
             "position": {
-              "x": 200,
-              "y": 360
+              "x": 360,
+              "y": 425
             },
             "size": {
               "width": 140,
@@ -468,130 +468,6 @@
             }
           },
           {
-            "position": {
-              "x": -70,
-              "y": -90
-            },
-            "size": {
-              "width": 150,
-              "height": 150
-            },
-            "attrs": {
-              "text": {
-                "text": "Give personal details\n\n"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 8,
-            "id": "ca4c6069-7d53-4fb6-9ebd-521377adc023",
-            "data": {
-              "type": "tm.Process",
-              "name": "Give personal details\n\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Personal Details\n\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "27d689eb-b276-4fdd-b143-6c7cb2ffb0ba",
-            "labels": [
-              "Personal Details\n\n"
-            ],
-            "source": {
-              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
-            },
-            "target": {
-              "cell": "ca4c6069-7d53-4fb6-9ebd-521377adc023"
-            },
-            "vertices": [
-              {
-                "x": -160,
-                "y": 20
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Owner(s) personal details\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "8f1cf256-e399-4d3c-bf3e-0f244c5bb93d",
-            "labels": [
-              "Owner(s) personal details\n"
-            ],
-            "source": {
-              "cell": "ca4c6069-7d53-4fb6-9ebd-521377adc023"
-            },
-            "target": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "vertices": [
-              {
-                "x": 200,
-                "y": -50
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -631,8 +507,8 @@
             },
             "vertices": [
               {
-                "x": 550,
-                "y": 390
+                "x": 710,
+                "y": 570
               }
             ]
           },
@@ -676,66 +552,8 @@
             },
             "vertices": [
               {
-                "x": 430,
-                "y": 640
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Confirmation Email\n8 Character ID\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "2cef95ef-b93c-4860-b413-01bbe6cbcf40",
-                  "title": "Leak of ID",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "It is possible that the ID may be leaked to a malicious actor, this is a particular risk in the case that a receivers email is compromised.",
-                  "mitigation": "No mitigation in place given the current architecture. It would be preferable to return this ID immediately upon receiving an application, to ensure the ID is received by the same person submitting the application.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 14,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "31720944-a875-4c8b-8902-656d75d41d8b",
-            "labels": [
-              "Confirmation Email\n8 Character ID\n"
-            ],
-            "source": {
-              "cell": "095bd98e-fec4-4fbc-8b7b-913d51166746"
-            },
-            "target": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "vertices": [
-              {
-                "x": 760,
-                "y": -170
+                "x": 410,
+                "y": 790
               }
             ]
           },
@@ -869,8 +687,8 @@
             },
             "vertices": [
               {
-                "x": 840,
-                "y": 510
+                "x": 970,
+                "y": 670
               }
             ]
           },
@@ -914,8 +732,8 @@
             },
             "vertices": [
               {
-                "x": 1030,
-                "y": 450
+                "x": 1010,
+                "y": 760
               }
             ]
           },
@@ -959,8 +777,8 @@
             },
             "vertices": [
               {
-                "x": 1000,
-                "y": 620
+                "x": 1090,
+                "y": 890
               }
             ]
           },
@@ -1001,91 +819,13 @@
             },
             "target": {
               "cell": "8eecc5af-98ca-471a-bbf3-08ac1f8d9eca"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "ID\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "34275b17-a8ff-40db-a5b8-019201db5c3c",
-            "labels": [
-              "ID\n"
-            ],
-            "source": {
-              "cell": "e16202e6-c24f-42a6-ad0f-f3fec71e300e"
-            },
-            "target": {
-              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
             },
             "vertices": [
               {
-                "x": -130,
-                "y": -90
+                "x": 1190,
+                "y": 790
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "8 Character ID",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "0af6273c-0252-466f-be82-0ce9b2ab00ec",
-            "labels": [
-              "8 Character ID"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "e16202e6-c24f-42a6-ad0f-f3fec71e300e"
-            }
           },
           {
             "shape": "flow",
@@ -1172,8 +912,8 @@
             },
             "vertices": [
               {
-                "x": 1240,
-                "y": 730
+                "x": 1070,
+                "y": 1000
               }
             ]
           },
@@ -1396,96 +1136,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request Additional Documentation",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "18e569aa-26d3-4555-aecf-5f132bfee148",
-            "labels": [
-              "Request Additional Documentation"
-            ],
-            "source": {
-              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
-            },
-            "target": {
-              "cell": "003721de-1402-416f-93ad-cf7f92ed44f9"
-            },
-            "vertices": [
-              {
-                "x": 1590,
-                "y": 70
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Unique Application ID\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "a7e69e8f-cad7-45c2-9f72-5d0e94b6311d",
-            "labels": [
-              "Unique Application ID\n"
-            ],
-            "source": {
-              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
-            },
-            "target": {
-              "cell": "095bd98e-fec4-4fbc-8b7b-913d51166746"
-            },
-            "vertices": [
-              {
-                "x": 960,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Generated Unique Application ID",
               "description": "",
               "outOfScope": false,
@@ -1508,98 +1158,8 @@
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 540
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Supporting Documents from Applicant Email",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "d038dd44-c8dc-4cda-97ab-133175630e65",
-            "labels": [
-              "Supporting Documents from Applicant Email"
-            ],
-            "source": {
-              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
-            },
-            "target": {
-              "cell": "d9700edc-fb87-4bfa-94c3-303b77ff4d57"
-            },
-            "vertices": [
-              {
-                "x": 1430,
-                "y": 370
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Supporting Documents",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "5a8462f8-bc14-4100-b482-7f1f6d12f196",
-            "labels": [
-              "Applicant's Supporting Documents"
-            ],
-            "source": {
-              "cell": "d9700edc-fb87-4bfa-94c3-303b77ff4d57"
-            },
-            "target": {
-              "cell": "b6dbed27-0009-42fc-af44-335d946996bb"
-            },
-            "vertices": [
-              {
-                "x": 890,
-                "y": 375
+                "x": 550,
+                "y": 630
               }
             ]
           },
@@ -1869,7 +1429,13 @@
             },
             "target": {
               "cell": "987e6210-f265-4b47-b525-617451d4898a"
-            }
+            },
+            "vertices": [
+              {
+                "x": 2100,
+                "y": 160
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1934,55 +1500,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Validation Passed (Boolean)",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "a7036334-50f4-4bc4-8fde-cdfc712f6026",
-            "labels": [
-              "Validation Passed (Boolean)"
-            ],
-            "source": {
-              "cell": "e71bd29d-f88a-404c-8205-a97495577444"
-            },
-            "target": {
-              "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
-            },
-            "vertices": [
-              {
-                "x": 1660,
-                "y": 480
-              },
-              {
-                "x": 1660,
-                "y": 450
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Applicant and Owner Details",
               "description": "",
               "outOfScope": false,
@@ -2005,115 +1522,8 @@
             },
             "vertices": [
               {
-                "x": 1240,
-                "y": 660
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Decision and list of applicants and owners",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "f04111cb-1e1e-4a7b-b11f-b882a629d26d",
-            "labels": [
-              "Decision and list of applicants and owners"
-            ],
-            "source": {
-              "cell": "e1c84163-4301-4270-ad0c-37febc6a2486"
-            },
-            "target": {
-              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
-            },
-            "vertices": [
-              {
-                "x": 1560,
-                "y": 240
-              },
-              {
-                "x": 1470,
-                "y": 100
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Decision Confirmation Email",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "027e3902-c274-48f1-800e-f2ae27f7b3a3",
-                  "title": "Fishing Attack",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Tampering",
-                  "description": "A malicious actor may send emails claiming to contain application decisions, but that require additional content such as payment.",
-                  "mitigation": "Utilise a login system for applicants and owners to confirm application status.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 6,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "749fdacb-b008-4e1c-9860-25a7d5a0501a",
-            "labels": [
-              "Decision Confirmation Email"
-            ],
-            "source": {
-              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
-            },
-            "target": {
-              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
-            },
-            "vertices": [
-              {
-                "x": 450,
-                "y": 150
+                "x": 1020,
+                "y": 940
               }
             ]
           },
@@ -2202,106 +1612,16 @@
             },
             "vertices": [
               {
-                "x": 550,
-                "y": 650
+                "x": 380,
+                "y": 880
               },
               {
-                "x": 240,
-                "y": 650
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request\nEmail\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "5b32677e-fdd1-4665-a12f-dc74408da675",
-            "labels": [
-              "Request\nEmail\n"
-            ],
-            "source": {
-              "cell": "003721de-1402-416f-93ad-cf7f92ed44f9"
-            },
-            "target": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "vertices": [
-              {
-                "x": 910,
-                "y": -20
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Email with\nSupporting Documents",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "98b6f140-8c92-4b39-997e-27c0661e7097",
-            "labels": [
-              "Email with\nSupporting Documents"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "43e55e64-3ed4-46d5-9923-a30a2f8a9e1b"
-            },
-            "vertices": [
-              {
-                "x": 810,
-                "y": -360
+                "x": -290,
+                "y": 880
               },
               {
-                "x": 1120,
-                "y": -230
+                "x": -500,
+                "y": 760
               }
             ]
           },
@@ -2490,8 +1810,8 @@
             },
             "vertices": [
               {
-                "x": -200,
-                "y": 280
+                "x": -520,
+                "y": 650
               }
             ]
           },
@@ -2549,79 +1869,8 @@
             },
             "vertices": [
               {
-                "x": -170,
-                "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "8 Character ID",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "2dfea88b-3e10-46b8-b67a-21745acaa474",
-                  "title": "Brute force of Application ID",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "It is plausible that with an 8 character application ID, malicious actors could brute force the IDs to discover application details. This is particularly concerning if an application ID allows recovering supported documents from the service.",
-                  "mitigation": "In the current implementation, simply rate limiting and effectively logging application checks can mitigate this risk but does not eliminate it.\nMitigations with a new system design:\n- Utilize a longer application ID, eg. 24 character.\n- Implement a login system.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 41,
-                  "score": ""
-                },
-                {
-                  "id": "8bdf749d-a1f0-491b-8396-963832bc48c2",
-                  "title": "Adversary in the middle changes application id",
-                  "status": "Mitigated",
-                  "severity": "Low",
-                  "type": "Tampering",
-                  "description": "An adversary-in-the-middle changes the application id submitted when a user is consulting their application's progress.",
-                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 50,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "2561b2b5-1b6a-4fdc-b5da-e4e89230db50",
-            "labels": [
-              "8 Character ID"
-            ],
-            "source": {
-              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
-            },
-            "target": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
-            },
-            "vertices": [
-              {
-                "x": -120,
-                "y": 220
+                "x": -320,
+                "y": 550
               }
             ]
           },
@@ -2692,8 +1941,8 @@
             },
             "vertices": [
               {
-                "x": 370,
-                "y": 100
+                "x": 200,
+                "y": 470
               }
             ]
           },
@@ -2764,8 +2013,8 @@
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 230
+                "x": 130,
+                "y": 502
               }
             ]
           },
@@ -2836,8 +2085,8 @@
             },
             "vertices": [
               {
-                "x": 620,
-                "y": 200
+                "x": 250,
+                "y": 440
               }
             ]
           },
@@ -2908,8 +2157,8 @@
             },
             "vertices": [
               {
-                "x": 160,
-                "y": 50
+                "x": -80,
+                "y": 560
               }
             ]
           },
@@ -2967,8 +2216,8 @@
             },
             "vertices": [
               {
-                "x": 190,
-                "y": 80
+                "x": -160,
+                "y": 510
               }
             ]
           },
@@ -2990,7 +2239,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "8 Character ID",
+              "name": "Email and password",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2998,44 +2247,31 @@
               "isEncrypted": false,
               "isPublicNetwork": false,
               "hasOpenThreats": false,
-              "threats": [
-                {
-                  "id": "eb91b864-4d05-464c-bd99-17b62dfd4f56",
-                  "title": "Adversary in the middle modifies the application id",
-                  "status": "Mitigated",
-                  "severity": "Low",
-                  "type": "Tampering",
-                  "description": "An adversary in the middle modifies the application id when the user submits it.",
-                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 56,
-                  "score": ""
-                }
-              ]
+              "threats": []
             },
-            "id": "15264663-f8c3-46d2-a1bd-ce33f6a33bad",
-            "labels": [
-              "8 Character ID"
-            ],
+            "id": "6d050145-0d38-469e-b516-69850501735a",
             "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+              "cell": "bac03fde-9550-4589-a234-bad4edee64d0"
             },
             "target": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
+              "cell": "d7630be0-253c-4773-9fed-d57080f6937d"
             },
             "vertices": [
               {
-                "x": 230,
-                "y": 110
+                "x": 890,
+                "y": -110
               }
+            ],
+            "labels": [
+              "Email and password"
             ]
           },
           {
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
+                "stroke": "#333333",
+                "strokeWidth": 1,
                 "targetMarker": {
                   "name": "classic"
                 },
@@ -3048,44 +2284,484 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Supporting Documents",
+              "name": "Email and password",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "e4f45e88-030f-466c-a47a-b04131f0dd32",
-                  "title": "Leak of Applicant Supporting Information",
-                  "status": "Open",
-                  "severity": "Low",
-                  "type": "Information disclosure",
-                  "description": "The current architecture requires staff members to download and then re-upload supporting data from applicants. This is needlessly complex and incorporates human risk factors where none are needed. It is possible that a staff member might leak documents in this process.",
-                  "mitigation": "Redesign system to automatically attach submitted user documentation to their application, without a human in the loop.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 28,
-                  "score": ""
-                }
-              ]
+              "hasOpenThreats": false,
+              "threats": []
             },
-            "id": "2b0ac2b9-aba9-41b4-83c3-efd97be5493e",
+            "id": "c638edd2-b1aa-4239-b423-46d58312350a",
+            "source": {
+              "cell": "bac03fde-9550-4589-a234-bad4edee64d0"
+            },
+            "target": {
+              "cell": "0ff23c24-3bab-4b7c-babc-43c6c3188cce"
+            },
+            "vertices": [
+              {
+                "x": 646.25,
+                "y": 190
+              }
+            ],
             "labels": [
-              "Supporting Documents"
+              "Email and password"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Confirmation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "1f086e4f-aabb-4337-a555-35d5bbc3ade4",
+            "source": {
+              "cell": "d7630be0-253c-4773-9fed-d57080f6937d"
+            },
+            "target": {
+              "cell": "bac03fde-9550-4589-a234-bad4edee64d0"
+            },
+            "vertices": [
+              {
+                "x": 750,
+                "y": -210
+              }
+            ],
+            "labels": [
+              "Confirmation"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "46a02278-b361-4105-b27f-8eb9b7600e3e",
+            "source": {
+              "cell": "d7630be0-253c-4773-9fed-d57080f6937d"
+            },
+            "target": {
+              "cell": "64f72f82-5423-4abf-b15d-566e5f8c1fbf"
+            },
+            "labels": [
+              "User details"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Email and password",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "2bf538ab-8bb2-40c0-bc39-ad708dbd21fe",
+            "source": {
+              "cell": "0ff23c24-3bab-4b7c-babc-43c6c3188cce"
+            },
+            "target": {
+              "cell": "7a22abe0-6e9f-4875-8395-402c1dfdd166"
+            },
+            "vertices": [
+              {
+                "x": 940,
+                "y": 60
+              },
+              {
+                "x": 1090,
+                "y": -120
+              }
+            ],
+            "labels": [
+              "Email and password"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Email and password",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "0db6dc56-3e0f-43e4-bfab-a8b97338894f",
+            "source": {
+              "cell": "7a22abe0-6e9f-4875-8395-402c1dfdd166"
+            },
+            "target": {
+              "cell": "64f72f82-5423-4abf-b15d-566e5f8c1fbf"
+            },
+            "vertices": [
+              {
+                "x": 1110,
+                "y": -370
+              }
+            ],
+            "labels": [
+              "Email and password"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Boolean\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "9fd5f155-36a8-4369-830d-51377ce5aa7e",
+            "source": {
+              "cell": "64f72f82-5423-4abf-b15d-566e5f8c1fbf"
+            },
+            "target": {
+              "cell": "7a22abe0-6e9f-4875-8395-402c1dfdd166"
+            },
+            "labels": [
+              "Boolean\n"
+            ],
+            "vertices": [
+              {
+                "x": 1060,
+                "y": -310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Boolean\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "ec0ea30e-1dc9-43e9-ba96-b0038b3dbcb8",
+            "source": {
+              "cell": "7a22abe0-6e9f-4875-8395-402c1dfdd166"
+            },
+            "target": {
+              "cell": "0ff23c24-3bab-4b7c-babc-43c6c3188cce"
+            },
+            "vertices": [
+              {
+                "x": 1110,
+                "y": 160
+              },
+              {
+                "x": 820,
+                "y": 350
+              },
+              {
+                "x": 700,
+                "y": 406
+              }
+            ],
+            "labels": [
+              "Boolean\n"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Token",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "ce66d3ed-10bc-451c-aa79-e8d439e799dd",
+            "source": {
+              "cell": "0ff23c24-3bab-4b7c-babc-43c6c3188cce"
+            },
+            "target": {
+              "cell": "91aeb9fd-9052-4db7-8d0e-403dd90bec3f"
+            },
+            "labels": [
+              "Token"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Becomes",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "a2d37b61-d73e-4267-854d-11afdd5c0f2c",
+            "source": {
+              "cell": "bac03fde-9550-4589-a234-bad4edee64d0"
+            },
+            "target": {
+              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
+            },
+            "vertices": [
+              {
+                "x": 30,
+                "y": 120
+              }
+            ],
+            "labels": [
+              "Becomes"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Becomes\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "70fbef54-9b41-44e4-9634-cab58fd54a65",
+            "source": {
+              "cell": "bac03fde-9550-4589-a234-bad4edee64d0"
+            },
+            "target": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "labels": [
+              "Becomes\n"
+            ],
+            "vertices": [
+              {
+                "x": 480,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validation Passed (Boolean)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "a7036334-50f4-4bc4-8fde-cdfc712f6026",
+            "labels": [
+              "Validation Passed (Boolean)"
             ],
             "source": {
-              "cell": "43e55e64-3ed4-46d5-9923-a30a2f8a9e1b"
+              "cell": "e71bd29d-f88a-404c-8205-a97495577444"
             },
             "target": {
               "cell": "d24ba26d-176e-4ad2-bcc4-8dc8b944122d"
             },
             "vertices": [
               {
-                "x": 1640,
-                "y": -138.5
+                "x": 1660,
+                "y": 480
+              },
+              {
+                "x": 1660,
+                "y": 450
               }
             ]
           },
@@ -3107,7 +2783,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Decision Confirmation Email",
+              "name": "Token",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3117,56 +2793,196 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "729dd14d-ab82-4401-91c8-bc23f51e34dc",
-            "labels": [
-              "Decision Confirmation Email"
-            ],
+            "id": "08a96931-90c4-46b8-b316-da5e90d35058",
             "source": {
-              "cell": "c08a2d22-8286-426d-b09a-1c7167a3efb4"
+              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
+            },
+            "target": {
+              "cell": "a8d07c4f-96dc-4dc8-9956-18b9e6e6225f"
+            },
+            "vertices": [
+              {
+                "x": -350,
+                "y": 460
+              }
+            ],
+            "labels": [
+              "Token"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validation Passed (Boolean)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "29857a39-5ba8-4c90-9238-2e3c1559dd77",
+            "source": {
+              "cell": "a8d07c4f-96dc-4dc8-9956-18b9e6e6225f"
             },
             "target": {
               "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
             },
-            "vertices": [
-              {
-                "x": 800,
-                "y": 25
-              }
+            "labels": [
+              "Validation Passed (Boolean)"
             ]
           },
           {
-            "position": {
-              "x": 885.9999999999995,
-              "y": -260
-            },
-            "size": {
-              "width": 110,
-              "height": 110
-            },
+            "shape": "flow",
             "attrs": {
-              "text": {
-                "text": "Application \nConfirmation\n"
-              },
-              "body": {
+              "line": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
                 "strokeDasharray": null
               }
             },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 12,
-            "id": "095bd98e-fec4-4fbc-8b7b-913d51166746",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
             "data": {
-              "type": "tm.Process",
-              "name": "Application \nConfirmation\n",
+              "type": "tm.Flow",
+              "name": "Token",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "privilegeLevel": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
               "hasOpenThreats": false,
               "threats": []
-            }
+            },
+            "id": "18810d68-87cb-4259-a308-cd1854c9b2ef",
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "a8d07c4f-96dc-4dc8-9956-18b9e6e6225f"
+            },
+            "vertices": [
+              {
+                "x": -140,
+                "y": 450
+              }
+            ],
+            "labels": [
+              "Token"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validation Passed (Boolean)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "1517dd41-dba9-45e1-a0d5-bb7d261b9862",
+            "source": {
+              "cell": "a8d07c4f-96dc-4dc8-9956-18b9e6e6225f"
+            },
+            "target": {
+              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
+            },
+            "vertices": [
+              {
+                "x": -340,
+                "y": 405.5
+              }
+            ],
+            "labels": [
+              "Validation Passed (Boolean)"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Token",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "014193a3-9682-488f-a3c9-7561db72d996",
+            "source": {
+              "cell": "91aeb9fd-9052-4db7-8d0e-403dd90bec3f"
+            },
+            "target": {
+              "cell": "a8d07c4f-96dc-4dc8-9956-18b9e6e6225f"
+            },
+            "vertices": [
+              {
+                "x": 40,
+                "y": 320
+              }
+            ],
+            "labels": [
+              "Token"
+            ]
           },
           {
             "position": {
@@ -3231,8 +3047,8 @@
           },
           {
             "position": {
-              "x": 1208,
-              "y": 385
+              "x": 1248,
+              "y": 510
             },
             "size": {
               "width": 140,
@@ -3261,115 +3077,6 @@
               "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 70,
-              "y": -200
-            },
-            "size": {
-              "width": 140,
-              "height": 140
-            },
-            "attrs": {
-              "text": {
-                "text": "Give ID"
-              },
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 3,
-                "strokeDasharray": "5 2"
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 16,
-            "id": "e16202e6-c24f-42a6-ad0f-f3fec71e300e",
-            "data": {
-              "type": "tm.Process",
-              "name": "Give ID",
-              "description": "",
-              "outOfScope": true,
-              "reasonOutOfScope": "Applicants will communicate the 8 Character application ID via existing communication channels.",
-              "privilegeLevel": "",
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "88fc2b9e-a61a-43f7-bb1b-9df3c2ac5ad2",
-                  "title": "Application ID Leak",
-                  "status": "NotApplicable",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "The Applicant is responsible for communicating the application ID to other owners. In doing so the application ID may be leaked. This process if out of our control.",
-                  "mitigation": "No current mitigation. A better system would directly communicate the application ID to all owners and applicants.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 4,
-                  "score": ""
-                },
-                {
-                  "id": "67efd807-aadf-46d0-bd73-2f1250e2e9f4",
-                  "title": "Elevation of privelege from Owner to Applicant",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Elevation of privilege",
-                  "description": "Only a single applicaiton ID of 8 characters is used to identify an application. Once this is shared from the applicant to the owners, there is no way to distinguish between applicant and owners. This allows owners to act as if they are the applicant.",
-                  "mitigation": "Add a full login/auth system for applicants and owners.\nProvide separate application IDs to check status of an application, one for the applicant and one for the owners.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 39,
-                  "score": ""
-                }
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 1085,
-              "y": -152.1875
-            },
-            "size": {
-              "width": 110,
-              "height": 110
-            },
-            "attrs": {
-              "text": {
-                "text": "Request \nDocumentation\n"
-              },
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 3,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 17,
-            "id": "003721de-1402-416f-93ad-cf7f92ed44f9",
-            "data": {
-              "type": "tm.Process",
-              "name": "Request \nDocumentation\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "privilegeLevel": "",
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "98dc08fa-a908-47e4-a1d5-342ae6197f8d",
-                  "title": "Malicious Actor Spoofs Email Requesting Documentation",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Spoofing",
-                  "description": "A malicious actor may send spoof email to applicants requesting they send additional documentation to a fishing address.",
-                  "mitigation": "Current mitigations are weak. Educate users to only trust emails from the host domain.\nRedesign system to utilise a login and upload via website.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 27,
-                  "score": ""
-                }
-              ]
             }
           },
           {
@@ -3404,54 +3111,6 @@
               "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 1300,
-              "y": -250
-            },
-            "size": {
-              "width": 120,
-              "height": 120
-            },
-            "attrs": {
-              "text": {
-                "text": "Send Supporting \nEvidence"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 19,
-            "id": "43e55e64-3ed4-46d5-9923-a30a2f8a9e1b",
-            "data": {
-              "type": "tm.Process",
-              "name": "Send Supporting \nEvidence",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": [
-                {
-                  "id": "bbe802fc-f86d-4cbb-ba11-637321abfad8",
-                  "title": "Denial of Service via Spam",
-                  "status": "Mitigated",
-                  "severity": "Low",
-                  "type": "Denial of service",
-                  "description": "A malicious actor may spam emails to the receiver service, effectively taking the service offline.",
-                  "mitigation": "Rate limit inbound emails by domain or IP.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 13,
-                  "score": ""
-                }
-              ]
             }
           },
           {
@@ -3680,88 +3339,6 @@
           },
           {
             "position": {
-              "x": 1069,
-              "y": 320
-            },
-            "size": {
-              "width": 100,
-              "height": 100
-            },
-            "attrs": {
-              "text": {
-                "text": "Add Supporting\nDocuments"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 26,
-            "id": "d9700edc-fb87-4bfa-94c3-303b77ff4d57",
-            "data": {
-              "type": "tm.Process",
-              "name": "Add Supporting\nDocuments",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 1185,
-              "y": -30
-            },
-            "size": {
-              "width": 100,
-              "height": 100
-            },
-            "attrs": {
-              "text": {
-                "text": "Send Decision \nConfirmation"
-              },
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 3,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 27,
-            "id": "c08a2d22-8286-426d-b09a-1c7167a3efb4",
-            "data": {
-              "type": "tm.Process",
-              "name": "Send Decision \nConfirmation",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "privilegeLevel": "",
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "598f64ce-8b43-40bb-8da3-9280e9aed326",
-                  "title": "Malicious Actor Spoofs Email Sending Decision",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "A malicious actor may send spoof email to applicants requesting they click a link to view the decision.",
-                  "mitigation": "Current mitigations are weak. Educate users to only trust emails from the host domain.\nRedesign system to utilise a login and upload via website.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 57,
-                  "score": ""
-                }
-              ]
-            }
-          },
-          {
-            "position": {
               "x": 1893,
               "y": 10
             },
@@ -3796,8 +3373,8 @@
           },
           {
             "position": {
-              "x": -80,
-              "y": 340
+              "x": -370,
+              "y": 690
             },
             "size": {
               "width": 120,
@@ -3853,6 +3430,256 @@
                   "score": ""
                 }
               ]
+            }
+          },
+          {
+            "position": {
+              "x": 880,
+              "y": -300
+            },
+            "size": {
+              "width": 120,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Register"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "d7630be0-253c-4773-9fed-d57080f6937d",
+            "zIndex": 30,
+            "data": {
+              "type": "tm.Process",
+              "name": "Register",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 520,
+              "y": 347.3333333333333
+            },
+            "size": {
+              "width": 120,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Sign In"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "0ff23c24-3bab-4b7c-babc-43c6c3188cce",
+            "zIndex": 31,
+            "data": {
+              "type": "tm.Process",
+              "name": "Sign In",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 590,
+              "y": -80
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Generic User"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "bac03fde-9550-4589-a234-bad4edee64d0",
+            "zIndex": 32,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Generic User",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 880,
+              "y": -420
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User Database"
+              },
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "64f72f82-5423-4abf-b15d-566e5f8c1fbf",
+            "zIndex": 33,
+            "data": {
+              "type": "tm.Store",
+              "name": "User Database",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1128,
+              "y": -339.3750000000001
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Verify Account"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "7a22abe0-6e9f-4875-8395-402c1dfdd166",
+            "zIndex": 34,
+            "data": {
+              "type": "tm.Process",
+              "name": "Verify Account",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 270,
+              "y": 330
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Auth Database \n(KV Store)"
+              },
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "91aeb9fd-9052-4db7-8d0e-403dd90bec3f",
+            "zIndex": 35,
+            "data": {
+              "type": "tm.Store",
+              "name": "Auth Database \n(KV Store)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -320,
+              "y": 310
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Validate Token"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "a8d07c4f-96dc-4dc8-9956-18b9e6e6225f",
+            "zIndex": 36,
+            "data": {
+              "type": "tm.Process",
+              "name": "Validate Token",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
             }
           }
         ]
