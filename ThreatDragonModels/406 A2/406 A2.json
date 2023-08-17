@@ -2251,51 +2251,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "8 Character ID",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "15264663-f8c3-46d2-a1bd-ce33f6a33bad",
-            "labels": [
-              "8 Character ID"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
-            },
-            "vertices": [
-              {
-                "x": 230,
-                "y": 110
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Status",
               "description": "",
               "outOfScope": false,
@@ -2320,155 +2275,6 @@
               {
                 "x": 270,
                 "y": 640
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Status",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "d70cb75f-dc4a-4d20-bada-0c9024d7552b",
-            "labels": [
-              "Status"
-            ],
-            "source": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
-            },
-            "target": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "vertices": [
-              {
-                "x": 190,
-                "y": 80
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Status",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "dbb7a351-e7ec-4117-8988-996fc94bf158",
-            "labels": [
-              "Status"
-            ],
-            "source": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
-            },
-            "target": {
-              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
-            },
-            "vertices": [
-              {
-                "x": -170,
-                "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Supporting Documents",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": [
-                {
-                  "id": "7a80dc15-2510-42a7-a399-351ad741b498",
-                  "title": "Leak of Supporting Documents",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Supporting documents are considered confidential.",
-                  "mitigation": "Supporting documents should only be communicated over TLS encrypted channels.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 20,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "d4074b45-a837-4cdb-b3c9-2440f8976f8c",
-            "labels": [
-              "Supporting Documents"
-            ],
-            "source": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
-            },
-            "target": {
-              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
-            },
-            "vertices": [
-              {
-                "x": -200,
-                "y": 280
               }
             ]
           },
@@ -2518,242 +2324,6 @@
               {
                 "x": 240,
                 "y": 650
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Owner(s) Personal Details\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": [
-                {
-                  "id": "c1b01ae6-05c0-47e7-ae77-3610b64ce912",
-                  "title": "Personal data can be stolen",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "An adversary in the middle can steal the personal data of the user.",
-                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 8,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "36f14e18-010a-40cb-a78a-4235fbaa28db",
-            "labels": [
-              "Owner(s) Personal Details\n"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
-            },
-            "vertices": [
-              {
-                "x": 510,
-                "y": 230
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Supporting Documents",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": [
-                {
-                  "id": "a183fe61-4c3f-4ddd-9a97-25a2cfe155a0",
-                  "title": "Supporting documents can be stolen",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "An adversary in the middle can steal the supporting documents of the user.",
-                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 10,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "d46b43d1-e75c-4161-b037-f8812069efe2",
-            "labels": [
-              "Supporting Documents"
-            ],
-            "source": {
-              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
-            },
-            "target": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "vertices": [
-              {
-                "x": 160,
-                "y": 50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Supporting Documents",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": [
-                {
-                  "id": "2570df6a-e754-4ec1-9032-db32334c4ac7",
-                  "title": "Supporting documents can be stolen",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "An adversary in the middle can steal the supporting documents of the user.",
-                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 9,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "160c3ad1-3ba2-44cd-aee5-a8d6dc0661b3",
-            "labels": [
-              "Supporting Documents"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
-            },
-            "vertices": [
-              {
-                "x": 370,
-                "y": 100
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Personal Details",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": [
-                {
-                  "id": "37b48519-69ff-40a2-abb9-a9f41c90c04d",
-                  "title": "Personal data can be stolen",
-                  "status": "Mitigated",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "An adversary in the middle can steal the PII of the applicant.",
-                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 7,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "a8442aa1-cdc7-4ad3-b2f1-9ae4b7dd7582",
-            "labels": [
-              "Personal Details"
-            ],
-            "source": {
-              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
-            },
-            "target": {
-              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
-            },
-            "vertices": [
-              {
-                "x": 620,
-                "y": 200
               }
             ]
           },
@@ -2973,6 +2543,137 @@
             "shape": "flow",
             "attrs": {
               "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Supporting Documents",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "7a80dc15-2510-42a7-a399-351ad741b498",
+                  "title": "Leak of Supporting Documents",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Supporting documents are considered confidential.",
+                  "mitigation": "Supporting documents should only be communicated over TLS encrypted channels.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "e9b4e330-627a-4f5f-94a4-663fdc1d8468",
+                  "title": "Adversary in the document modifies supporting documents",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An adversary-in-the-middle modifies the supporting documents displayed to the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 53,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "d4074b45-a837-4cdb-b3c9-2440f8976f8c",
+            "labels": [
+              "Supporting Documents"
+            ],
+            "source": {
+              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
+            },
+            "target": {
+              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
+            },
+            "vertices": [
+              {
+                "x": -200,
+                "y": 280
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Status",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "288ceb75-13fc-4715-8da8-fd37b748442b",
+                  "title": "Adversary in the middle changes the status",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An adversary-in-the-middle intercepts the request to consult progress and modifies the status displayed to the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 48,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "dbb7a351-e7ec-4117-8988-996fc94bf158",
+            "labels": [
+              "Status"
+            ],
+            "source": {
+              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
+            },
+            "target": {
+              "cell": "4a32fb74-9b0a-49d7-b447-c7f535291fb2"
+            },
+            "vertices": [
+              {
+                "x": -170,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
                 "stroke": "red",
                 "targetMarker": {
                   "name": "classic"
@@ -3007,6 +2708,19 @@
                   "new": false,
                   "number": 41,
                   "score": ""
+                },
+                {
+                  "id": "8bdf749d-a1f0-491b-8396-963832bc48c2",
+                  "title": "Adversary in the middle changes application id",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An adversary-in-the-middle changes the application id submitted when a user is consulting their application's progress.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 50,
+                  "score": ""
                 }
               ]
             },
@@ -3024,6 +2738,412 @@
               {
                 "x": -120,
                 "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Supporting Documents",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "2570df6a-e754-4ec1-9032-db32334c4ac7",
+                  "title": "Supporting documents can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the supporting documents of the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "a6894186-f3fd-46c6-964e-dc991bcf2df1",
+                  "title": "Adversary in the middle changes supporting documents",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An adversary-in-the-middle intercepts the supporting document upload and supplies their own document with modified content.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 45,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "160c3ad1-3ba2-44cd-aee5-a8d6dc0661b3",
+            "labels": [
+              "Supporting Documents"
+            ],
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Owner(s) Personal Details\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "c1b01ae6-05c0-47e7-ae77-3610b64ce912",
+                  "title": "Personal data can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the personal data of the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                },
+                {
+                  "id": "514bbf1b-fb35-4649-b37d-16df788e40a1",
+                  "title": "Adversary in the middle changes owner details",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An adversary-in-the-middle intercepts the application submission and modifies owner details.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 46,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "36f14e18-010a-40cb-a78a-4235fbaa28db",
+            "labels": [
+              "Owner(s) Personal Details\n"
+            ],
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 230
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Personal Details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "37b48519-69ff-40a2-abb9-a9f41c90c04d",
+                  "title": "Personal data can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the PII of the applicant.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "15020f81-9b99-4e3d-a08f-f75f0cd084d6",
+                  "title": "Adversary in the middle changes applicant details",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An adversary-in-the-middle intercepts the application submission and modifies applicant details.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 47,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "a8442aa1-cdc7-4ad3-b2f1-9ae4b7dd7582",
+            "labels": [
+              "Personal Details"
+            ],
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "a2f30175-f30d-4f90-a11e-0e89a3d97172"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Supporting Documents",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "a183fe61-4c3f-4ddd-9a97-25a2cfe155a0",
+                  "title": "Supporting documents can be stolen",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An adversary in the middle can steal the supporting documents of the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                },
+                {
+                  "id": "20e553f9-eef0-4590-a3c2-3b662f4458c4",
+                  "title": "Adversary in the middle modifies supporting documents",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An adversary in the middle modifies supporting documents that are displayed to the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 55,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "d46b43d1-e75c-4161-b037-f8812069efe2",
+            "labels": [
+              "Supporting Documents"
+            ],
+            "source": {
+              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
+            },
+            "target": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "vertices": [
+              {
+                "x": 160,
+                "y": 50
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Status",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "5dc27de4-f0f1-4d41-bd9f-1404add713a1",
+                  "title": "Adversary in the middle changes application status",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An adversary-in-the-middle intercepts the request to consult progress and modifies the status displayed to the user.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 49,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "d70cb75f-dc4a-4d20-bada-0c9024d7552b",
+            "labels": [
+              "Status"
+            ],
+            "source": {
+              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
+            },
+            "target": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "vertices": [
+              {
+                "x": 190,
+                "y": 80
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "8 Character ID",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "eb91b864-4d05-464c-bd99-17b62dfd4f56",
+                  "title": "Adversary in the middle modifies the application id",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An adversary in the middle modifies the application id when the user submits it.",
+                  "mitigation": "Use Transport Layer Security (TLS) for the communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 56,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "15264663-f8c3-46d2-a1bd-ce33f6a33bad",
+            "labels": [
+              "8 Character ID"
+            ],
+            "source": {
+              "cell": "a0533989-0845-46b8-83c0-d67ba90c43c8"
+            },
+            "target": {
+              "cell": "60e0b1ae-8f2f-4bd9-ade7-41215cc0af4d"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 110
               }
             ]
           },
@@ -3112,8 +3232,8 @@
                   "status": "Mitigated",
                   "severity": "Low",
                   "type": "Information disclosure",
-                  "description": "If the login page provides a different error message when attempting authenticate with a username that exists, compared to the error message for a username that does not exist, it is possible that usernames will get leaked. This is not a significant issue but is a concern.",
-                  "mitigation": "Provide the same error message for usernames that do and do not exist.",
+                  "description": "If the login page provides a different error message when attempting to authenticate with a username that exists, compared to the error message for a username that does not exist, it is possible that usernames will get leaked. This is not a significant issue but is a concern.",
+                  "mitigation": "Provide the same error message and response payload for usernames that do and do not exist.",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 42,
@@ -3748,6 +3868,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 42
+    "threatTop": 56
   }
 }
