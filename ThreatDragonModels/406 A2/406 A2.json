@@ -158,15 +158,15 @@
               "threats": [
                 {
                   "id": "a9df6590-76b8-46b7-9b84-efbe199cd667",
-                  "title": "New STRIDE threat",
+                  "title": "Malicious actor gains access to account",
                   "status": "Mitigated",
                   "severity": "Medium",
                   "type": "Spoofing",
                   "description": "Hacker is able to obtain email and password and login as the applicant. Therefore gaining access to sensitive application and personal information",
-                  "mitigation": "Two-Factor authentication could be utilized to minimize  ",
+                  "mitigation": "This could be mitigated by educating users about password security or with two-factor authentication.",
                   "modelType": "STRIDE",
-                  "new": true,
-                  "number": 0,
+                  "new": false,
+                  "number": 62,
                   "score": ""
                 }
               ]
@@ -183,7 +183,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Owner(s) (Logged in)"
+                "text": "Owner(s)\n(Logged in)"
               },
               "body": {
                 "stroke": "#333333",
@@ -197,13 +197,27 @@
             "id": "4a32fb74-9b0a-49d7-b447-c7f535291fb2",
             "data": {
               "type": "tm.Actor",
-              "name": "Owner(s) (Logged in)",
+              "name": "Owner(s)\n(Logged in)",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "0c2577e3-ba01-41a5-99cc-810fc9bc01fd",
+                  "title": "Malicious actor gains access to account",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "A malicious actor could access to an owner's account by stealing their credentials in some way. ",
+                  "mitigation": "This could be mitigated by educating users about password security or with two-factor authentication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 61,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1628,64 +1642,6 @@
               {
                 "x": 380,
                 "y": 880
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Credentials\n ",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "db2eb567-1cbb-4a1f-a7bb-40cbd122c0ed",
-                  "title": "Leak of Credentials",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Credentials may be leaked if communicated over an insecure channel. If staff credentials are leaked, significant customer data may be disclosed to malicious actors.",
-                  "mitigation": "Only communicate secrets over TLS.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 29,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "74e49be8-ac19-4d0e-bd5b-b8300d4df5f7",
-            "labels": [
-              "Credentials\n "
-            ],
-            "source": {
-              "cell": "987e6210-f265-4b47-b525-617451d4898a"
-            },
-            "target": {
-              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
-            },
-            "vertices": [
-              {
-                "x": 2000,
-                "y": 200
               }
             ]
           },
@@ -3506,6 +3462,65 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Credentials\n ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "db2eb567-1cbb-4a1f-a7bb-40cbd122c0ed",
+                  "title": "Leak of Credentials",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Credentials may be leaked if communicated over an insecure channel. If staff credentials are leaked, significant customer data may be disclosed to malicious actors.",
+                  "mitigation": "Only communicate secrets over TLS.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "74e49be8-ac19-4d0e-bd5b-b8300d4df5f7",
+            "labels": [
+              "Credentials\n "
+            ],
+            "source": {
+              "cell": "987e6210-f265-4b47-b525-617451d4898a"
+            },
+            "target": {
+              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
+            },
+            "vertices": [
+              {
+                "x": 2000,
+                "y": 200
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1800,
               "y": 474.6875
@@ -3572,12 +3587,12 @@
               "y": 510
             },
             "size": {
-              "width": 140,
-              "height": 140
+              "width": 120,
+              "height": 120
             },
             "attrs": {
               "text": {
-                "text": "Review Application\n\n"
+                "text": "Review\nApplication"
               },
               "body": {
                 "stroke": "#333333",
@@ -3591,7 +3606,7 @@
             "id": "8eecc5af-98ca-471a-bbf3-08ac1f8d9eca",
             "data": {
               "type": "tm.Process",
-              "name": "Review Application\n\n",
+              "name": "Review\nApplication",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3606,12 +3621,12 @@
               "y": 604.6875
             },
             "size": {
-              "width": 150,
-              "height": 150
+              "width": 130,
+              "height": 130
             },
             "attrs": {
               "text": {
-                "text": "Make Decision on \nApplication\n\n"
+                "text": "Make Decision on \nApplication"
               },
               "body": {
                 "stroke": "#333333",
@@ -3625,7 +3640,7 @@
             "id": "e1c84163-4301-4270-ad0c-37febc6a2486",
             "data": {
               "type": "tm.Process",
-              "name": "Make Decision on \nApplication\n\n",
+              "name": "Make Decision on \nApplication",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -4196,12 +4211,12 @@
               "y": 370
             },
             "size": {
-              "width": 120,
-              "height": 120
+              "width": 100,
+              "height": 100
             },
             "attrs": {
               "text": {
-                "text": "Request documents"
+                "text": "Request\nDocuments"
               },
               "body": {
                 "stroke": "#333333",
@@ -4215,7 +4230,7 @@
             "id": "0ab5b5de-22c7-4386-abdb-6a70b2844f3d",
             "data": {
               "type": "tm.Process",
-              "name": "Request documents",
+              "name": "Request\nDocuments",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -4297,6 +4312,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 60
+    "threatTop": 62
   }
 }
