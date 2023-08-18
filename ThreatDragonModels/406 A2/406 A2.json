@@ -481,8 +481,8 @@
                 "text": "Give personal details\n\n"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -497,8 +497,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "5f279f20-bfe8-4829-a5b7-b7e5e977d069",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Due to being out of the scope of the system it is reliant upon the applicant and homeowner to securely communicate information. This may provide an unspecified vulnerability that an attacker may use to gain access to personal information. ",
+                  "mitigation": "No mitigations ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 61,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3881,6 +3895,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 59
+    "threatTop": 61
   }
 }
