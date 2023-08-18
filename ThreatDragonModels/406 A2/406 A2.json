@@ -1841,45 +1841,6 @@
                 "targetMarker": {
                   "name": "classic"
                 },
-                "strokeDasharray": "5 2"
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Communicate Staff Member's Login Details",
-              "description": "",
-              "outOfScope": true,
-              "reasonOutOfScope": "Communicated out of band over some existing communication channel.",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "9dfcad51-9458-429c-a804-bdf099d21e2c",
-            "labels": [
-              "Communicate Staff Member's Login Details"
-            ],
-            "source": {
-              "cell": "1843678d-dec2-4d83-8a2f-81aafcb11a5d"
-            },
-            "target": {
-              "cell": "987e6210-f265-4b47-b525-617451d4898a"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
                 "strokeDasharray": null
               }
             },
@@ -2302,64 +2263,6 @@
               {
                 "x": 1120,
                 "y": -230
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Credentials\n ",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "db2eb567-1cbb-4a1f-a7bb-40cbd122c0ed",
-                  "title": "Leak of Credentials",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Credentials may be leaked if communicated over an insecure channel. If staff credentials are leaked, significant customer data may be disclosed to malicious actors.",
-                  "mitigation": "Only communicate secrets over TLS.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 29,
-                  "score": ""
-                }
-              ]
-            },
-            "id": "74e49be8-ac19-4d0e-bd5b-b8300d4df5f7",
-            "labels": [
-              "Credentials\n "
-            ],
-            "source": {
-              "cell": "987e6210-f265-4b47-b525-617451d4898a"
-            },
-            "target": {
-              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
-            },
-            "vertices": [
-              {
-                "x": 2000,
-                "y": 200
               }
             ]
           },
@@ -3135,6 +3038,124 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Staff Member's Login Details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "Communicated out of band over some existing communication channel.",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "facb1b6f-07f5-4ef4-9cf1-dbb884374a3e",
+                  "title": "New STRIDE threat",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Communication through an insecure and unspecified channel . Which leads to a hacker obtaining the details through an unspecified attack.",
+                  "mitigation": "Communication details through a virtual private network or SSH tunnel. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 59,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "9dfcad51-9458-429c-a804-bdf099d21e2c",
+            "labels": [
+              "Staff Member's Login Details"
+            ],
+            "source": {
+              "cell": "1843678d-dec2-4d83-8a2f-81aafcb11a5d"
+            },
+            "target": {
+              "cell": "987e6210-f265-4b47-b525-617451d4898a"
+            },
+            "vertices": [
+              {
+                "x": 2040,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Credentials\n ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "id": "db2eb567-1cbb-4a1f-a7bb-40cbd122c0ed",
+                  "title": "Leak of Credentials",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Credentials may be leaked if communicated over an insecure channel. If staff credentials are leaked, significant customer data may be disclosed to malicious actors.",
+                  "mitigation": "Only communicate secrets over TLS.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "74e49be8-ac19-4d0e-bd5b-b8300d4df5f7",
+            "labels": [
+              "Credentials\n "
+            ],
+            "source": {
+              "cell": "987e6210-f265-4b47-b525-617451d4898a"
+            },
+            "target": {
+              "cell": "149b12e2-9e17-432c-9812-4ed394dac1a9"
+            },
+            "vertices": [
+              {
+                "x": 2000,
+                "y": 200
+              }
+            ]
+          },
+          {
             "position": {
               "x": 885.9999999999995,
               "y": -260
@@ -3762,8 +3783,8 @@
           },
           {
             "position": {
-              "x": 1893,
-              "y": 10
+              "x": 1873,
+              "y": -5
             },
             "size": {
               "width": 112.5,
@@ -3860,6 +3881,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 58
+    "threatTop": 59
   }
 }
